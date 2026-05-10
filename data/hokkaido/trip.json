@@ -1,0 +1,35 @@
+{
+  "title": "北海道露營車之旅",
+  "dateRange": {
+    "start": "2026-05-08",
+    "end": "2026-05-15"
+  },
+  "regions": [
+    "札幌",
+    "二世谷",
+    "富良野"
+  ],
+  "flights": [
+    {
+      "type": "去程",
+      "airline": "CI 107",
+      "departure": "TPE 09:00",
+      "arrival": "CTS 13:30",
+      "date": "2026-05-08"
+    },
+    {
+      "type": "回程",
+      "airline": "CI 108",
+      "departure": "CTS 14:30",
+      "arrival": "TPE 17:00",
+      "date": "2026-05-15"
+    }
+  ],
+  "vehicle": {
+    "type": "露營車",
+    "company": "北海道 RV 租車",
+    "phone": "011-xxx-xxxx",
+    "pickupDate": "2026-05-08",
+    "returnDate": "2026-05-15"
+  }
+}

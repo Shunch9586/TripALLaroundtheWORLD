@@ -1,0 +1,24 @@
+{
+  "trips": [
+    {
+      "id": "hokkaido",
+      "name": "🗾 202701 北海道",
+      "notionPageId": "35ca28dd-7430-81ef-aefe-ea2b5600d31b",
+      "notionDbs": {
+        "overview": "79f64ededf914f0aa6e675afd32e55df",
+        "itinerary": "48936aece5304d1b8866c922b704688d",
+        "info": "4fb6f52ae8564f4a82f196f323683d1b"
+      }
+    },
+    {
+      "id": "tokyo",
+      "name": "🗼 202702 東京",
+      "notionPageId": "35ca28dd-7430-8140-b44e-e2362b36da62",
+      "notionDbs": {
+        "overview": "7066f76537a5429f86590720957b01e9",
+        "itinerary": "1fe7e84c22504b09bbf3aaa020b937d5",
+        "info": "472ff5e27ad641cc9b4d4fcd241bc5dc"
+      }
+    }
+  ]
+}

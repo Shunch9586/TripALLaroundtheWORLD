@@ -1,0 +1,36 @@
+{
+  "title": "東京城市輕旅行",
+  "dateRange": {
+    "start": "2027-02-10",
+    "end": "2027-02-14"
+  },
+  "regions": [
+    "新宿",
+    "淺草",
+    "銀座",
+    "原宿"
+  ],
+  "flights": [
+    {
+      "type": "去程",
+      "airline": "BR 190",
+      "departure": "TPE 08:30",
+      "arrival": "NRT 12:30",
+      "date": "2027-02-10"
+    },
+    {
+      "type": "回程",
+      "airline": "BR 191",
+      "departure": "NRT 14:00",
+      "arrival": "TPE 17:30",
+      "date": "2027-02-14"
+    }
+  ],
+  "vehicle": {
+    "type": "租車",
+    "company": "（無，使用大眾交通）",
+    "phone": "",
+    "pickupDate": "2027-02-10",
+    "returnDate": "2027-02-14"
+  }
+}
