@@ -1,0 +1,12 @@
+{
+  "name": "travel-itinerary",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sync": "node scripts/fetch-notion.js",
+    "serve": "npx serve ."
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.15"
+  }
+}

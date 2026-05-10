@@ -1,0 +1,29 @@
+[
+  {
+    "category": "🆘 緊急聯絡",
+    "name": "日本報警・消防救護",
+    "content": "警察 110 ／ 火災・救護 119",
+    "phone": "110",
+    "address": "",
+    "notes": "",
+    "link": ""
+  },
+  {
+    "category": "🛡️ 保險",
+    "name": "旅遊平安險",
+    "content": "保單號碼：請自行填入",
+    "phone": "0800-xxx-xxx",
+    "address": "",
+    "notes": "",
+    "link": ""
+  },
+  {
+    "category": "🏨 住宿",
+    "name": "新宿飯店（待確認）",
+    "content": "預約確認信：請自行填入",
+    "phone": "",
+    "address": "東京都新宿區（待填）",
+    "notes": "Check-in 15:00 / Check-out 11:00",
+    "link": ""
+  }
+]
