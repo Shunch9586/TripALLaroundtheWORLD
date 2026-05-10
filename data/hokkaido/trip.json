@@ -21,8 +21,12 @@
   "vehicle": {
     "type": "露營車",
     "company": "（待確認）",
-    "phone": "",
+    "phone": "080-2861-5874",
+    "rentalCode": "T2010401122910",
     "pickupDate": "2027-01-19",
-    "returnDate": "2027-01-31"
+    "pickupTime": "15:00",
+    "returnDate": "2027-01-24",
+    "returnTime": "15:00",
+    "notes": "抵達新千歲後撥打電話，接駁車免費接送至取車地點。全程導航請用 CAR NAVITIME（有限高路段，Google Maps 不顯示）"
   }
 }
