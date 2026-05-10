@@ -1,4 +1,4 @@
-name: Sync Notion & Deploy
+name: Sync Notion and Deploy
 
 on:
   workflow_dispatch:        # 手動觸發
