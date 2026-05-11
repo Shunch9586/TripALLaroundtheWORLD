@@ -578,6 +578,7 @@ function sortedFlights() {
 }
 
 function flightDirection(flight) {
+  if (flight?.direction) return flight.direction;
   const text = `${flight?.type || ''} ${flight?.departure || ''} ${flight?.arrival || ''}`;
   if (/回程|返程|return|inbound/i.test(text)) return 'inbound';
   if (/去程|outbound/i.test(text)) return 'outbound';
