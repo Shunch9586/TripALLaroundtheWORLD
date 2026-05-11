@@ -137,7 +137,7 @@ function renderOverview() {
         <div class="ov-label">${formatText(t.vehicle.type)}</div>
         <div class="ov-value">${formatText(t.vehicle.company)}
           ${t.vehicle.phone ? `<a href="tel:${t.vehicle.phone}">${formatText(t.vehicle.phone)}</a>` : ''}<br>
-          取車 ${formatDate(t.vehicle.pickupDate)} ${formatText(t.vehicle.pickupTime || '')} ／ 還車 ${formatDate(t.vehicle.returnDate)} ${formatText(t.vehicle.returnTime || '')}
+          ${renderVehicleDates(t.vehicle)}
           ${t.vehicle.rentalCode ? `<br>代號 ${formatText(t.vehicle.rentalCode)}` : ''}
         </div>
       </div>
@@ -465,6 +465,11 @@ function flightCard(flight) {
       </div>
       <div class="flight-date">${formatDate(flight.date)} · ${formatText(flight.type || '')}</div>
     </div>`;
+}
+
+function renderVehicleDates(vehicle = {}) {
+  if (!vehicle.pickupDate && !vehicle.returnDate) return '取還車時間待確認';
+  return `取車 ${formatDate(vehicle.pickupDate)} ${formatText(vehicle.pickupTime || '')} ／ 還車 ${formatDate(vehicle.returnDate)} ${formatText(vehicle.returnTime || '')}`;
 }
 
 function row(key, val) {
