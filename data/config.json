@@ -1,24 +1,24 @@
 {
-  "tripRegistryDb": "35da28dd74308173904ccf79f93959d3",
+  "tripRegistryDb": "319eb439b7ee828c914e8195a88f2348",
   "trips": [
     {
       "id": "hokkaido",
       "name": "🗾 202701 北海道",
-      "notionPageId": "35ca28dd743081efaefeea2b5600d31b",
+      "notionPageId": "90ceb439b7ee82d19b5081ebf080c1cf",
       "notionDbs": {
-        "overview": "79f64ededf914f0aa6e675afd32e55df",
-        "itinerary": "48936aece5304d1b8866c922b704688d",
-        "info": "4fb6f52ae8564f4a82f196f323683d1b"
+        "overview": "387eb439b7ee823d86da81d6dc473382",
+        "itinerary": "4e0eb439b7ee8293b2e701aa4067379d",
+        "info": "d3deb439b7ee826cb3da019b834bb834"
       }
     },
     {
       "id": "tokyo",
       "name": "🗼 202702 東京",
-      "notionPageId": "35ca28dd74308140b44ee2362b36da62",
+      "notionPageId": "52feb439b7ee827ea0478166c3920841",
       "notionDbs": {
-        "overview": "7066f76537a5429f86590720957b01e9",
-        "itinerary": "1fe7e84c22504b09bbf3aaa020b937d5",
-        "info": "472ff5e27ad641cc9b4d4fcd241bc5dc"
+        "overview": "931eb439b7ee83a1b8c9817215dc5fbf",
+        "itinerary": "504eb439b7ee82c18abf01dd1b9c611f",
+        "info": "546eb439b7ee83088860015ffbdc29a4"
       }
     }
   ]
