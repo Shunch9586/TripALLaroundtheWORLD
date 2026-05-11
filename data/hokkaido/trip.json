@@ -1,26 +1,31 @@
 {
   "title": "北海道露營車之旅",
-  "dateRange": { "start": "2027-01-19", "end": "2027-01-31" },
-  "regions": ["札幌", "留壽都", "Tomamu", "二世谷（未定）"],
+  "dateRange": {
+    "start": "2027-01-19",
+    "end": "2027-01-19"
+  },
+  "regions": [
+    "札幌、留壽都、Tomamu（星野渡假村）"
+  ],
   "flights": [
     {
-      "type": "去程",
-      "airline": "長榮 BR116",
-      "departure": "TPE 10:10",
-      "arrival": "CTS 15:00",
-      "date": "2027-01-19"
+      "type": "回程航班",
+      "airline": "長榮航空 BR115",
+      "date": "2027-01-31",
+      "departure": "CTS 15:20",
+      "arrival": "TPE 19:05，飛行約 4h45m"
     },
     {
-      "type": "回程",
-      "airline": "長榮 BR115",
-      "departure": "CTS 15:20",
-      "arrival": "TPE 19:05",
-      "date": "2027-01-31"
+      "type": "去程航班",
+      "airline": "長榮航空 BR116",
+      "date": "2027-01-19",
+      "departure": "TPE 10:10",
+      "arrival": "CTS 15:00，飛行約 3h50m"
     }
   ],
   "vehicle": {
     "type": "露營車",
-    "company": "（待確認）",
+    "company": "租車代號：T2010401122910",
     "phone": "080-2861-5874",
     "rentalCode": "T2010401122910",
     "pickupDate": "2027-01-19",
