@@ -29,6 +29,43 @@ async function queryAll(dbId) {
   return pages;
 }
 
+async function fetchTripRegistry(dbId) {
+  const pages = await queryAll(dbId);
+  const trips = pages
+    .map(page => {
+      const props = page.properties;
+      return {
+        id: getRichText(props, '行程ID'),
+        name: getTitle(props, '名稱'),
+        notionPageId: normalizeNotionId(getRichText(props, '行程頁面ID')),
+        sort: getNumber(props, '排序'),
+        status: getSelect(props, '狀態') || '啟用',
+        notionDbs: {
+          overview: normalizeNotionId(getRichText(props, '總覽DB')),
+          itinerary: normalizeNotionId(getRichText(props, '每日行程DB')),
+          info: normalizeNotionId(getRichText(props, '重要資訊DB')),
+        },
+      };
+    })
+    .filter(trip =>
+      trip.status !== '停用' &&
+      trip.id &&
+      trip.name &&
+      trip.notionDbs.overview &&
+      trip.notionDbs.itinerary &&
+      trip.notionDbs.info
+    )
+    .sort((a, b) => (a.sort || 999) - (b.sort || 999) || a.name.localeCompare(b.name));
+
+  return trips.map(({ sort, status, ...trip }) => trip);
+}
+
+function writeConfig(trips) {
+  const next = { ...config, trips };
+  fs.writeFileSync('data/config.json', `${JSON.stringify(next, null, 2)}\n`);
+  console.log(`✅ data/config.json — ${trips.length} trips`);
+}
+
 async function fetchItinerary(tripId, dbId) {
   const pages = await queryAll(dbId);
   const items = pages
@@ -166,8 +203,12 @@ function write(tripId, filename, data) {
 }
 
 async function main() {
-  const trips = config.trips;
+  const trips = config.tripRegistryDb
+    ? await fetchTripRegistry(config.tripRegistryDb)
+    : config.trips;
   const target = process.argv[2]; // optional: run only one trip
+
+  if (!target && config.tripRegistryDb) writeConfig(trips);
 
   for (const trip of trips) {
     if (target && trip.id !== target) continue;
@@ -179,6 +220,10 @@ async function main() {
   }
 
   console.log('\n✅ 同步完成');
+}
+
+function normalizeNotionId(value) {
+  return (value || '').replace(/-/g, '').trim();
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
