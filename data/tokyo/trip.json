@@ -16,30 +16,30 @@
       "direction": "outbound",
       "airline": "長榮航空 BR184",
       "flightNumber": "BR184",
-      "ticketInfo": "訂位代號：EDKD47｜機票號碼：695 24658257",
+      "ticketInfo": "訂位代號：EDKD47｜機票號碼：695 24658257｜機型：Boeing 787-10",
       "date": "2027-02-24",
-      "departure": "TPE",
-      "arrival": "東京（機場與時間待確認）",
-      "aircraft": "",
+      "departure": "TPE 07:55 T2",
+      "arrival": "NRT 12:00 T1，飛行約 3h05m",
+      "aircraft": "Boeing 787-10",
       "bookingCode": "EDKD47",
       "ticketNumber": "695 24658257",
       "link": "",
-      "notes": "TPE → 東京（機場與時間待確認）"
+      "notes": "TPE 07:55 T2 → NRT 12:00 T1，飛行約 3h05m"
     },
     {
       "type": "回程航班",
       "direction": "inbound",
       "airline": "長榮航空 BR195",
       "flightNumber": "BR195",
-      "ticketInfo": "訂位代號：EDKD47｜機票號碼：695 24658257",
+      "ticketInfo": "訂位代號：EDKD47｜機票號碼：695 24658257｜機型：Boeing 787-10",
       "date": "2027-03-04",
-      "departure": "東京",
-      "arrival": "TPE（機場與時間待確認）",
-      "aircraft": "",
+      "departure": "NRT 20:20 T1",
+      "arrival": "TPE 23:25 T2，飛行約 4h05m",
+      "aircraft": "Boeing 787-10",
       "bookingCode": "EDKD47",
       "ticketNumber": "695 24658257",
       "link": "",
-      "notes": "東京 → TPE（機場與時間待確認）"
+      "notes": "NRT 20:20 T1 → TPE 23:25 T2，飛行約 4h05m"
     }
   ],
   "vehicle": {
