@@ -1,8 +1,8 @@
 {
   "title": "東京城市輕旅行",
   "dateRange": {
-    "start": "2027-02-10",
-    "end": "2027-02-14"
+    "start": "2027-02-24",
+    "end": "2027-03-04"
   },
   "regions": [
     "新宿",
@@ -12,18 +12,24 @@
   ],
   "flights": [
     {
-      "type": "去程",
-      "airline": "BR 190",
-      "departure": "TPE 08:30",
-      "arrival": "NRT 12:30",
-      "date": "2027-02-10"
+      "type": "去程航班",
+      "airline": "長榮航空 BR184",
+      "ticketInfo": "訂位代號：EDKD47｜機票號碼：695 24658257",
+      "date": "2027-02-24",
+      "departure": "TPE",
+      "arrival": "東京（機場與時間待確認）",
+      "link": "",
+      "notes": "TPE → 東京（機場與時間待確認）"
     },
     {
-      "type": "回程",
-      "airline": "BR 191",
-      "departure": "NRT 14:00",
-      "arrival": "TPE 17:30",
-      "date": "2027-02-14"
+      "type": "回程航班",
+      "airline": "長榮航空 BR195",
+      "ticketInfo": "訂位代號：EDKD47｜機票號碼：695 24658257",
+      "date": "2027-03-04",
+      "departure": "東京",
+      "arrival": "TPE（機場與時間待確認）",
+      "link": "",
+      "notes": "東京 → TPE（機場與時間待確認）"
     }
   ],
   "vehicle": {
