@@ -180,6 +180,90 @@
     "notes": "租車代號：T2010401122910｜還車後可撥 080-2861-5874 安排接駁回機場或下一個地點"
   },
   {
+    "date": "2027-01-25",
+    "theme": "接機・Tomamu 移動日",
+    "time": "下午",
+    "category": "🚗 交通",
+    "title": "前往新千歲機場接女朋友",
+    "location": "新千歲機場",
+    "mapsUrl": "",
+    "transport": "一般轎車",
+    "estimatedCost": 0,
+    "notes": "接機後前往 Tomamu 附近住宿。"
+  },
+  {
+    "date": "2027-01-25",
+    "theme": "接機・Tomamu 移動日",
+    "time": "傍晚",
+    "category": "🏨 住宿",
+    "title": "Tomamu 附近旅館入住",
+    "location": "Tomamu 周邊",
+    "mapsUrl": "",
+    "transport": "一般轎車",
+    "estimatedCost": 0,
+    "notes": "暫定 1/25–1/28 入住，可能延到 1/29 離開 Tomamu。"
+  },
+  {
+    "date": "2027-01-26",
+    "theme": "Tomamu 滑雪",
+    "time": "全天",
+    "category": "⛷️ 滑雪",
+    "title": "Tomamu 滑雪場滑雪",
+    "location": "Tomamu Ski Resort",
+    "mapsUrl": "",
+    "transport": "一般轎車／接駁待確認",
+    "estimatedCost": 0,
+    "notes": "住宿與雪場交通待旅館確認。"
+  },
+  {
+    "date": "2027-01-27",
+    "theme": "Tomamu 滑雪",
+    "time": "全天",
+    "category": "⛷️ 滑雪",
+    "title": "Tomamu 滑雪場滑雪",
+    "location": "Tomamu Ski Resort",
+    "mapsUrl": "",
+    "transport": "一般轎車／接駁待確認",
+    "estimatedCost": 0,
+    "notes": "住宿與雪場交通待旅館確認。"
+  },
+  {
+    "date": "2027-01-28",
+    "theme": "Tomamu / 札幌彈性日",
+    "time": "TBD",
+    "category": "🚗 交通",
+    "title": "Tomamu → 札幌（暫定）",
+    "location": "Tomamu / 札幌",
+    "mapsUrl": "",
+    "transport": "一般轎車",
+    "estimatedCost": 0,
+    "notes": "尚未決定 1/28 或 1/29 離開 Tomamu；離開後回札幌晃晃並住札幌。"
+  },
+  {
+    "date": "2027-01-29",
+    "theme": "TBD",
+    "time": "TBD",
+    "category": "📍 景點",
+    "title": "Tomamu 或札幌彈性安排",
+    "location": "Tomamu / 札幌",
+    "mapsUrl": "",
+    "transport": "一般轎車",
+    "estimatedCost": 0,
+    "notes": "若 1/29 才離開 Tomamu，上午保留 Tomamu；若已回札幌，安排札幌市區或近郊。"
+  },
+  {
+    "date": "2027-01-30",
+    "theme": "TBD",
+    "time": "TBD",
+    "category": "📍 景點",
+    "title": "札幌 / 近郊 TBD",
+    "location": "札幌 / 近郊",
+    "mapsUrl": "",
+    "transport": "一般轎車",
+    "estimatedCost": 0,
+    "notes": "行程待定。"
+  },
+  {
     "date": "2027-01-31",
     "theme": "返台",
     "time": "15:20",
@@ -190,5 +274,17 @@
     "transport": "請於 13:20 前完成報到（起飛前 2 小時）",
     "estimatedCost": 0,
     "notes": "長榮 BR115｜起飛 15:20 → 抵台 19:05（飛行約 4h45m）"
+  },
+  {
+    "date": "2027-01-31",
+    "theme": "還車・回程",
+    "time": "TBD",
+    "category": "🚗 交通",
+    "title": "還車",
+    "location": "新千歲 / 租車公司",
+    "mapsUrl": "",
+    "transport": "一般轎車",
+    "estimatedCost": 0,
+    "notes": "回程航班前完成還車。"
   }
 ]
