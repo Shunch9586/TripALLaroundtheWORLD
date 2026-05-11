@@ -155,12 +155,14 @@ async function fetchOverview(tripId, dbId) {
 
   const merged = {
     ...existing,
+    ...(dateRow?.name && dateRow.name !== '日期範圍' && { title: dateRow.name }),
     ...(dateRow?.date && { dateRange: { start: dateRow.date, end: dateRow.notes || dateRow.date } }),
     ...(regionRow && { regions: regionRow.content.split('・').map(s => s.trim()).filter(Boolean) }),
     ...(flights.length && { flights }),
     ...(vehicleRow && {
       vehicle: {
         ...existing.vehicle,
+        type:    vehicleRow.name || existing.vehicle?.type || '租車/露營車',
         company: vehicleRow.content || existing.vehicle?.company || '',
         phone:   vehicleRow.phone  || existing.vehicle?.phone   || '',
       },
