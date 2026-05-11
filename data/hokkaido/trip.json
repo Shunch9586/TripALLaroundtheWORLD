@@ -9,18 +9,24 @@
   ],
   "flights": [
     {
-      "type": "回程航班",
-      "airline": "長榮航空 BR115",
-      "date": "2027-01-31",
-      "departure": "CTS 15:20",
-      "arrival": "TPE 19:05，飛行約 4h45m"
-    },
-    {
       "type": "去程航班",
       "airline": "長榮航空 BR116",
+      "ticketInfo": "長榮航空 BR116",
       "date": "2027-01-19",
       "departure": "TPE 10:10",
-      "arrival": "CTS 15:00，飛行約 3h50m"
+      "arrival": "CTS 15:00，飛行約 3h50m",
+      "link": "",
+      "notes": "TPE 10:10 → CTS 15:00，飛行約 3h50m"
+    },
+    {
+      "type": "回程航班",
+      "airline": "長榮航空 BR115",
+      "ticketInfo": "長榮航空 BR115",
+      "date": "2027-01-31",
+      "departure": "CTS 15:20",
+      "arrival": "TPE 19:05，飛行約 4h45m",
+      "link": "",
+      "notes": "CTS 15:20 → TPE 19:05，飛行約 4h45m"
     }
   ],
   "vehicle": {

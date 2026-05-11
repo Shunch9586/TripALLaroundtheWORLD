@@ -237,11 +237,9 @@ function renderDateJump() {
 
   el.querySelectorAll('.date-chip').forEach(button => {
     button.addEventListener('click', () => {
-      const target = document.getElementById(dayElementId(button.dataset.date));
-      if (!target) return;
       el.querySelectorAll('.date-chip').forEach(chip => chip.classList.remove('active'));
       button.classList.add('active');
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      jumpToDate(button.dataset.date);
     });
   });
 }
@@ -458,7 +456,7 @@ function flightCard(flight) {
   return `
     <div class="flight-card">
       <div class="flight-label">${label}</div>
-      <div class="flight-code">${flight.airline || flight.type}</div>
+      <div class="flight-code">${flight.ticketInfo || flight.airline || flight.type}</div>
       <div class="flight-route">
         <strong>${flight.departure || '未定'}</strong>
         <span>→</span>
@@ -476,6 +474,21 @@ function row(key, val) {
 function itineraryDates() {
   const filtered = activeFilter === 'all' ? itinerary : itinerary.filter(i => i.category === activeFilter);
   return [...new Set(filtered.map(item => item.date).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+}
+
+function jumpToDate(date) {
+  const target = document.getElementById(dayElementId(date));
+  if (!target) return;
+
+  const headerHeight = document.querySelector('.header')?.getBoundingClientRect().height || 0;
+  const jumpHeight = document.getElementById('date-jump')?.getBoundingClientRect().height || 0;
+  const targetTop = target.getBoundingClientRect().top + window.scrollY;
+  const offset = headerHeight + jumpHeight + 14;
+
+  window.scrollTo({
+    top: Math.max(targetTop - offset, 0),
+    behavior: 'smooth',
+  });
 }
 
 function todayStr() {
