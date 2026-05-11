@@ -61,6 +61,7 @@ async function switchTrip(id) {
   activeFilter = 'all';
   renderOverview();
   renderFilterBar();
+  renderDateJump();
   renderItinerary();
   renderToday();
   renderInfo();
@@ -207,7 +208,40 @@ function renderFilterBar() {
       activeFilter = chip.dataset.cat;
       bar.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
       chip.classList.add('active');
+      renderDateJump();
       renderItinerary();
+    });
+  });
+}
+
+/* ── Date jump ── */
+function renderDateJump() {
+  const dates = itineraryDates();
+  const el = document.getElementById('date-jump');
+  if (!el) return;
+
+  if (!dates.length) {
+    el.innerHTML = '';
+    return;
+  }
+
+  el.innerHTML = dates.map((date, index) => {
+    const d = new Date(date + 'T12:00:00');
+    return `
+      <button class="date-chip" data-date="${date}">
+        <span>DAY ${String(index + 1).padStart(2, '0')}</span>
+        <strong>${date.slice(5)}</strong>
+        <em>${DAYS[d.getDay()]}</em>
+      </button>`;
+  }).join('');
+
+  el.querySelectorAll('.date-chip').forEach(button => {
+    button.addEventListener('click', () => {
+      const target = document.getElementById(dayElementId(button.dataset.date));
+      if (!target) return;
+      el.querySelectorAll('.date-chip').forEach(chip => chip.classList.remove('active'));
+      button.classList.add('active');
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
 }
@@ -239,7 +273,7 @@ function renderItinerary() {
       const d = new Date(date + 'T12:00:00');
       const isToday = date === today;
       return `
-        <div class="day-section">
+        <div class="day-section" id="${dayElementId(date)}">
           <div class="day-header">
             <span class="day-date${isToday ? ' is-today' : ''}">${date.slice(5)} (${DAYS[d.getDay()]})</span>
             ${isToday ? '<span class="today-pill">今日</span>' : ''}
@@ -272,7 +306,7 @@ function renderItineraryTickets() {
       const d = new Date(date + 'T12:00:00');
       const isToday = date === today;
       return `
-        <section class="ticket-day${isToday ? ' is-today' : ''}">
+        <section class="ticket-day${isToday ? ' is-today' : ''}" id="${dayElementId(date)}">
           <aside class="ticket-date">
             <span>DAY ${String(index + 1).padStart(2, '0')}</span>
             <strong>${date.slice(5)}</strong>
@@ -439,6 +473,11 @@ function row(key, val) {
   return `<div class="info-row"><span class="info-row-key">${key}</span><span>${val}</span></div>`;
 }
 
+function itineraryDates() {
+  const filtered = activeFilter === 'all' ? itinerary : itinerary.filter(i => i.category === activeFilter);
+  return [...new Set(filtered.map(item => item.date).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+}
+
 function todayStr() {
   return new Date().toISOString().split('T')[0];
 }
@@ -487,6 +526,10 @@ function quickActions() {
 
 function currentDesign() {
   return document.documentElement.dataset.design || 'option1';
+}
+
+function dayElementId(date) {
+  return `day-${date}`;
 }
 
 function sortedFlights() {
