@@ -121,6 +121,13 @@ async function fetchOverview(tripId, dbId) {
       type:       getSelect(props, '類型'),
       name:       getTitle(props, '名稱'),
       content:    getRichText(props, '內容'),
+      flightDirection: getSelect(props, '航班方向') || getSelect(props, '方向'),
+      flightNumber: getRichText(props, '航班編號'),
+      departure: getRichText(props, '出發'),
+      arrival: getRichText(props, '抵達'),
+      aircraft: getRichText(props, '機型'),
+      bookingCode: getRichText(props, '訂位代號'),
+      ticketNumber: getRichText(props, '機票號碼'),
       flightInfo: getRichText(props, '機票航班資訊') || getRichText(props, '航班資訊'),
       date:       getDate(props, '日期'),
       phone:      getPhone(props, '電話'),
@@ -170,13 +177,24 @@ function isFlightRow(row) {
 
 function toFlight(row) {
   const route = parseFlightRoute(row.notes || row.flightInfo || '');
+  const ticketInfo = row.flightInfo || [
+    row.bookingCode && `訂位代號：${row.bookingCode}`,
+    row.ticketNumber && `機票號碼：${row.ticketNumber}`,
+    row.aircraft && `機型：${row.aircraft}`,
+  ].filter(Boolean).join('｜');
+
   return {
     type:       row.name || row.type,
+    direction:  normalizeFlightDirection(row.flightDirection),
     airline:    row.content,
-    ticketInfo: row.flightInfo || row.content,
+    flightNumber: row.flightNumber,
+    ticketInfo: ticketInfo || row.content,
     date:       row.date,
-    departure:  route.departure,
-    arrival:    route.arrival,
+    departure:  row.departure || route.departure,
+    arrival:    row.arrival || route.arrival,
+    aircraft:   row.aircraft,
+    bookingCode: row.bookingCode,
+    ticketNumber: row.ticketNumber,
     link:       row.link,
     notes:      row.notes,
   };
@@ -188,12 +206,19 @@ function parseFlightRoute(text) {
 }
 
 function flightDirection(flight) {
+  if (flight.direction) return flight.direction;
   const text = `${flight.type || ''} ${flight.departure || ''} ${flight.arrival || ''}`;
   if (/回程|返程|return|inbound/i.test(text)) return 'inbound';
   if (/去程|outbound/i.test(text)) return 'outbound';
   if (/^TPE\b/.test(flight.departure || '')) return 'outbound';
   if (/^TPE\b/.test(flight.arrival || '')) return 'inbound';
   return 'unknown';
+}
+
+function normalizeFlightDirection(value) {
+  if (/回程|返程|return|inbound/i.test(value || '')) return 'inbound';
+  if (/去程|outbound/i.test(value || '')) return 'outbound';
+  return '';
 }
 
 function write(tripId, filename, data) {
