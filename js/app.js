@@ -92,21 +92,21 @@ function renderOverview() {
     <div class="ov-row">
       <span class="ov-icon">✈️</span>
       <div>
-        <div class="ov-label">${f.type}</div>
-        <div class="ov-value">${f.date} &nbsp;${f.airline}<br>${f.departure} → ${f.arrival}</div>
+        <div class="ov-label">${formatText(f.type)}</div>
+        <div class="ov-value">${formatText(f.date)} &nbsp;${formatText(f.airline)}<br>${formatText(f.departure)} → ${formatText(f.arrival)}</div>
       </div>
     </div>`).join('');
 
   document.getElementById('overview-card').innerHTML = `
     <div class="ov-header">
-      <div class="ov-kicker">${status.label}</div>
-      <div class="ov-title">${t.title}</div>
+      <div class="ov-kicker">${formatText(status.label)}</div>
+      <div class="ov-title">${formatText(t.title)}</div>
       <div class="ov-dates">${formatDate(t.dateRange.start)} → ${formatDate(t.dateRange.end)}</div>
       ${next ? `
         <div class="next-card">
           <div class="next-label">下一個行程</div>
-          <div class="next-title">${next.time || '時間未定'} · ${next.title}</div>
-          <div class="next-meta">${formatDate(next.date)} ${next.location ? ` · ${next.location}` : ''}</div>
+          <div class="next-title">${formatText(next.time || '時間未定')} · ${formatText(next.title)}</div>
+          <div class="next-meta">${formatDate(next.date)} ${next.location ? ` · ${formatText(next.location)}` : ''}</div>
         </div>` : ''}
     </div>
     <div class="ov-grid">
@@ -127,18 +127,18 @@ function renderOverview() {
       <span class="ov-icon">📍</span>
       <div>
         <div class="ov-label">主要區域</div>
-        <div class="ov-value">${(t.regions || []).join(' ・ ')}</div>
+        <div class="ov-value">${formatText((t.regions || []).join(' ・ '))}</div>
       </div>
     </div>
     ${flights}
     <div class="ov-row">
       <span class="ov-icon">🚐</span>
       <div>
-        <div class="ov-label">${t.vehicle.type}</div>
-        <div class="ov-value">${t.vehicle.company}
-          ${t.vehicle.phone ? `<a href="tel:${t.vehicle.phone}">${t.vehicle.phone}</a>` : ''}<br>
-          取車 ${formatDate(t.vehicle.pickupDate)} ${t.vehicle.pickupTime || ''} ／ 還車 ${formatDate(t.vehicle.returnDate)} ${t.vehicle.returnTime || ''}
-          ${t.vehicle.rentalCode ? `<br>代號 ${t.vehicle.rentalCode}` : ''}
+        <div class="ov-label">${formatText(t.vehicle.type)}</div>
+        <div class="ov-value">${formatText(t.vehicle.company)}
+          ${t.vehicle.phone ? `<a href="tel:${t.vehicle.phone}">${formatText(t.vehicle.phone)}</a>` : ''}<br>
+          取車 ${formatDate(t.vehicle.pickupDate)} ${formatText(t.vehicle.pickupTime || '')} ／ 還車 ${formatDate(t.vehicle.returnDate)} ${formatText(t.vehicle.returnTime || '')}
+          ${t.vehicle.rentalCode ? `<br>代號 ${formatText(t.vehicle.rentalCode)}` : ''}
         </div>
       </div>
     </div>`;
@@ -159,31 +159,31 @@ function renderOverviewConsole() {
         <i></i>
         <span>${airportCode(outbound?.arrival) || 'CTS'}</span>
       </div>
-      <div class="console-title">${t.title}</div>
-      <div class="console-meta">${formatDate(t.dateRange.start)} - ${formatDate(t.dateRange.end)} · ${status.label}</div>
+      <div class="console-title">${formatText(t.title)}</div>
+      <div class="console-meta">${formatDate(t.dateRange.start)} - ${formatDate(t.dateRange.end)} · ${formatText(status.label)}</div>
     </div>
     <div class="console-strip">
       <div><span>Days</span><strong>${tripDays()}</strong></div>
       <div><span>Stops</span><strong>${(t.regions || []).length}</strong></div>
       <div><span>Plans</span><strong>${itinerary.length}</strong></div>
-      <div><span>Mode</span><strong>${t.vehicle?.type || 'Trip'}</strong></div>
+      <div><span>Mode</span><strong>${formatText(t.vehicle?.type || 'Trip')}</strong></div>
     </div>
     <div class="console-grid">
       <div class="console-panel">
         <span>Regions</span>
-        <strong>${(t.regions || []).join(' / ')}</strong>
+        <strong>${formatText((t.regions || []).join(' / '))}</strong>
       </div>
       <div class="console-panel">
         <span>Next</span>
-        <strong>${next ? `${formatDate(next.date)} ${next.time || ''} · ${next.title}` : '尚未排定'}</strong>
+        <strong>${next ? `${formatDate(next.date)} ${formatText(next.time || '')} · ${formatText(next.title)}` : '尚未排定'}</strong>
       </div>
       <div class="console-panel">
         <span>Vehicle</span>
-        <strong>${t.vehicle?.rentalCode || t.vehicle?.company || '未設定'}${t.vehicle?.phone ? ` · ${t.vehicle.phone}` : ''}</strong>
+        <strong>${formatText(t.vehicle?.rentalCode || t.vehicle?.company || '未設定')}${t.vehicle?.phone ? ` · ${formatText(t.vehicle.phone)}` : ''}</strong>
       </div>
       <div class="console-panel">
         <span>Return</span>
-        <strong>${inbound ? `${formatDate(inbound.date)} · ${inbound.departure} → ${inbound.arrival}` : '未設定'}</strong>
+        <strong>${inbound ? `${formatDate(inbound.date)} · ${formatText(inbound.departure)} → ${formatText(inbound.arrival)}` : '未設定'}</strong>
       </div>
     </div>
     ${flights.length ? `
@@ -312,7 +312,7 @@ function renderItineraryTickets() {
           </aside>
           <div class="ticket-stack">
             <div class="ticket-day-title">
-              <span>${theme || '自由行程'}</span>
+            <span>${formatText(theme || '自由行程')}</span>
               ${isToday ? '<b>今日</b>' : ''}
             </div>
             ${items.map(ticketCard).join('')}
@@ -336,7 +336,7 @@ function renderToday() {
     el.innerHTML = `
       <div class="today-hero">
         <div>
-          <div class="today-label">${status.label}</div>
+          <div class="today-label">${formatText(status.label)}</div>
           <div class="today-heading">${msg}</div>
           <div class="today-sub">${formatDate(start)} → ${formatDate(end)}</div>
         </div>
@@ -357,7 +357,7 @@ function renderToday() {
       <div>
         <div class="today-label">今日行程</div>
         <div class="today-heading">${today.slice(5)} (${DAYS[d.getDay()]})</div>
-        ${theme ? `<div class="today-sub">${theme}</div>` : ''}
+        ${theme ? `<div class="today-sub">${formatText(theme)}</div>` : ''}
       </div>
       <span class="today-count">${items.length} 項</span>
     </div>
@@ -387,10 +387,10 @@ function renderInfo() {
     quickActions() +
     Object.entries(groups).map(([cat, items]) => `
       <div class="info-group">
-        <div class="info-group-label">${cat}</div>
+        <div class="info-group-label">${formatText(cat)}</div>
         ${items.map(i => `
           <div class="info-card">
-            <div class="info-name">${i.name}</div>
+            <div class="info-name">${formatText(i.name)}</div>
             ${row('內容', i.content)}
             ${row('電話', i.phone ? `<a href="tel:${i.phone}">${i.phone}</a>` : '')}
             ${row('地址', i.address)}
@@ -410,19 +410,19 @@ function itemCard(item) {
   return `
     <div class="item-card" style="--cat:${style.color}; --cat-tone:${style.tone}">
       <div class="item-head">
-        <div class="item-time">${item.time || '—'}</div>
+        <div class="item-time">${formatText(item.time || '—')}</div>
         <div class="item-body">
-          <span class="item-cat">${item.category}</span>
-          <div class="item-title">${item.title}</div>
-          ${item.location ? `<div class="item-loc">📍 ${item.location}</div>` : ''}
+          <span class="item-cat">${formatText(item.category)}</span>
+          <div class="item-title">${formatText(item.title)}</div>
+          ${item.location ? `<div class="item-loc">📍 ${formatText(item.location)}</div>` : ''}
         </div>
         ${maps}
       </div>
       ${hasFooter ? `
       <div class="item-foot">
-        ${item.transport ? `<div class="item-transport">🚌 ${item.transport}</div>` : ''}
+        ${item.transport ? `<div class="item-transport">🚌 ${formatText(item.transport)}</div>` : ''}
         ${item.estimatedCost ? `<span class="item-cost">¥${item.estimatedCost.toLocaleString()}</span>` : ''}
-        ${item.notes ? `<div class="item-note">💡 ${item.notes}</div>` : ''}
+        ${item.notes ? `<div class="item-note">💡 ${formatText(item.notes)}</div>` : ''}
       </div>` : ''}
     </div>`;
 }
@@ -432,18 +432,18 @@ function ticketCard(item) {
   const maps = item.mapsUrl
     ? `<a class="ticket-map" href="${item.mapsUrl}" target="_blank" rel="noreferrer">MAP</a>` : '';
   const details = [
-    item.location ? `<span>LOC · ${item.location}</span>` : '',
-    item.transport ? `<span>MOVE · ${item.transport}</span>` : '',
+    item.location ? `<span>LOC · ${formatText(item.location)}</span>` : '',
+    item.transport ? `<span>MOVE · ${formatText(item.transport)}</span>` : '',
     item.estimatedCost ? `<span>COST · ¥${item.estimatedCost.toLocaleString()}</span>` : '',
-    item.notes ? `<span>NOTE · ${item.notes}</span>` : '',
+    item.notes ? `<span>NOTE · ${formatText(item.notes)}</span>` : '',
   ].filter(Boolean).join('');
 
   return `
     <article class="ticket-card" style="--cat:${style.color}; --cat-tone:${style.tone}">
-      <div class="ticket-time">${item.time || '--:--'}</div>
+      <div class="ticket-time">${formatText(item.time || '--:--')}</div>
       <div class="ticket-main">
-        <div class="ticket-cat">${item.category || '行程'}</div>
-        <h3>${item.title}</h3>
+        <div class="ticket-cat">${formatText(item.category || '行程')}</div>
+        <h3>${formatText(item.title)}</h3>
         ${details ? `<div class="ticket-details">${details}</div>` : ''}
       </div>
       ${maps}
@@ -456,19 +456,42 @@ function flightCard(flight) {
   return `
     <div class="flight-card">
       <div class="flight-label">${label}</div>
-      <div class="flight-code">${flight.ticketInfo || flight.airline || flight.type}</div>
+      <div class="flight-code">${formatText(flight.ticketInfo || flight.airline || flight.type)}</div>
       <div class="flight-route">
-        <strong>${flight.departure || '未定'}</strong>
+        <strong>${formatText(flight.departure || '未定')}</strong>
         <span>→</span>
-        <strong>${flight.arrival || '未定'}</strong>
+        <strong>${formatText(flight.arrival || '未定')}</strong>
       </div>
-      <div class="flight-date">${formatDate(flight.date)} · ${flight.type || ''}</div>
+      <div class="flight-date">${formatDate(flight.date)} · ${formatText(flight.type || '')}</div>
     </div>`;
 }
 
 function row(key, val) {
   if (!val) return '';
-  return `<div class="info-row"><span class="info-row-key">${key}</span><span>${val}</span></div>`;
+  return `<div class="info-row"><span class="info-row-key">${key}</span><span>${renderValue(val)}</span></div>`;
+}
+
+function renderValue(value) {
+  const text = String(value);
+  return /<[^>]+>/.test(text) ? text : formatText(text);
+}
+
+function formatText(value) {
+  return addNumberedLineBreaks(escapeHTML(value));
+}
+
+function addNumberedLineBreaks(value) {
+  return String(value ?? '').replace(/([^\s>])\s*(?=\d+[.、])/g, '$1<br>');
+}
+
+function escapeHTML(value) {
+  return String(value ?? '').replace(/[&<>"']/g, char => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
+  }[char]));
 }
 
 function itineraryDates() {
