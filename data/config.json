@@ -1,9 +1,10 @@
 {
+  "tripRegistryDb": "35da28dd74308173904ccf79f93959d3",
   "trips": [
     {
       "id": "hokkaido",
       "name": "🗾 202701 北海道",
-      "notionPageId": "35ca28dd-7430-81ef-aefe-ea2b5600d31b",
+      "notionPageId": "35ca28dd743081efaefeea2b5600d31b",
       "notionDbs": {
         "overview": "79f64ededf914f0aa6e675afd32e55df",
         "itinerary": "48936aece5304d1b8866c922b704688d",
@@ -13,7 +14,7 @@
     {
       "id": "tokyo",
       "name": "🗼 202702 東京",
-      "notionPageId": "35ca28dd-7430-8140-b44e-e2362b36da62",
+      "notionPageId": "35ca28dd74308140b44ee2362b36da62",
       "notionDbs": {
         "overview": "7066f76537a5429f86590720957b01e9",
         "itinerary": "1fe7e84c22504b09bbf3aaa020b937d5",
