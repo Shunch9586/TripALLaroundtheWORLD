@@ -483,9 +483,10 @@ function formatText(value) {
 
 function formatLineBreaks(value) {
   return String(value ?? '')
+    .replace(/\r?\n/g, '<br>')
     .replace(/\s*｜\s*/g, '<br>')
     .replace(/([^\s>])\s*(?=(?:訂位代號|機票號碼|機型|航班編號|出發|抵達)：)/g, '$1<br>')
-    .replace(/([^\s>])\s*(?=\d+[.、])/g, '$1<br>');
+    .replace(/([^\s>])\s*(?=(?:\d+[.、]|[①②③④⑤⑥⑦⑧⑨⑩]))/g, '$1<br>');
 }
 
 function escapeHTML(value) {
