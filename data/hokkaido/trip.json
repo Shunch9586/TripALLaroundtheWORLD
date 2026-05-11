@@ -1,35 +1,37 @@
 {
   "title": "北海道露營車之旅",
   "dateRange": {
-    "start": "2026-05-08",
-    "end": "2026-05-15"
+    "start": "2027-01-19",
+    "end": "2027-01-19"
   },
   "regions": [
-    "札幌",
-    "二世谷",
-    "富良野"
+    "札幌、留壽都、Tomamu（星野渡假村）"
   ],
   "flights": [
     {
-      "type": "去程",
-      "airline": "CI 107",
-      "departure": "TPE 09:00",
-      "arrival": "CTS 13:30",
-      "date": "2026-05-08"
+      "type": "回程航班",
+      "airline": "長榮航空 BR115",
+      "date": "2027-01-31",
+      "departure": "CTS 15:20",
+      "arrival": "TPE 19:05，飛行約 4h45m"
     },
     {
-      "type": "回程",
-      "airline": "CI 108",
-      "departure": "CTS 14:30",
-      "arrival": "TPE 17:00",
-      "date": "2026-05-15"
+      "type": "去程航班",
+      "airline": "長榮航空 BR116",
+      "date": "2027-01-19",
+      "departure": "TPE 10:10",
+      "arrival": "CTS 15:00，飛行約 3h50m"
     }
   ],
   "vehicle": {
     "type": "露營車",
-    "company": "北海道 RV 租車",
-    "phone": "011-xxx-xxxx",
-    "pickupDate": "2026-05-08",
-    "returnDate": "2026-05-15"
+    "company": "租車代號：T2010401122910",
+    "phone": "080-2861-5874",
+    "rentalCode": "T2010401122910",
+    "pickupDate": "2027-01-19",
+    "pickupTime": "15:00",
+    "returnDate": "2027-01-24",
+    "returnTime": "15:00",
+    "notes": "抵達新千歲後撥打電話，接駁車免費接送至取車地點。全程導航請用 CAR NAVITIME（有限高路段，Google Maps 不顯示）"
   }
 }
