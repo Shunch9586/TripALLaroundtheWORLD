@@ -1332,6 +1332,14 @@ html[data-design="option3"] .flight-code {
   font-weight: 950;
 }
 
+html[data-design="option3"] .flight-ticket {
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+  font-weight: 800;
+}
+
 html[data-design="option3"] .flight-route {
   display: flex;
   align-items: center;

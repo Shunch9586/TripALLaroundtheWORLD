@@ -456,7 +456,8 @@ function flightCard(flight) {
   return `
     <div class="flight-card">
       <div class="flight-label">${label}</div>
-      <div class="flight-code">${formatText(flight.ticketInfo || flight.airline || flight.type)}</div>
+      <div class="flight-code">${formatText(flight.airline || flight.flightNumber || flight.type)}</div>
+      ${flight.ticketInfo ? `<div class="flight-ticket">${formatText(flight.ticketInfo)}</div>` : ''}
       <div class="flight-route">
         <strong>${formatText(flight.departure || '未定')}</strong>
         <span>→</span>
