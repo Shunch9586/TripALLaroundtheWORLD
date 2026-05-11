@@ -822,7 +822,8 @@ button, select { font: inherit; }
 
 @media (max-width: 520px) {
   .header {
-    position: static;
+    position: sticky;
+    top: 0;
     padding-top: calc(env(safe-area-inset-top, 0px) + 10px);
   }
 
@@ -843,11 +844,6 @@ button, select { font: inherit; }
   }
 
   .tab-nav {
-    position: fixed;
-    z-index: 120;
-    right: 12px;
-    bottom: calc(12px + env(safe-area-inset-bottom));
-    left: 12px;
     max-width: 520px;
     margin: 0 auto;
     padding: 7px;
@@ -872,9 +868,9 @@ button, select { font: inherit; }
     border-color: var(--primary);
   }
 
-  .main { padding-bottom: 92px; }
+  .main { padding-bottom: 44px; }
   .date-jump {
-    top: calc(env(safe-area-inset-top, 0px) + 6px);
+    top: calc(env(safe-area-inset-top, 0px) + 112px);
   }
   .item-head { grid-template-columns: 44px minmax(0, 1fr) auto; }
   .item-foot { padding-left: 68px; }
