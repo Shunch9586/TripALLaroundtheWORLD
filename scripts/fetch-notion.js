@@ -81,13 +81,14 @@ async function fetchOverview(tripId, dbId) {
   const rows = pages.map(p => {
     const props = p.properties;
     return {
-      type:    getSelect(props, '類型'),
-      name:    getTitle(props, '名稱'),
-      content: getRichText(props, '內容'),
-      date:    getDate(props, '日期'),
-      phone:   getPhone(props, '電話'),
-      link:    getUrl(props, '連結'),
-      notes:   getRichText(props, '備註'),
+      type:       getSelect(props, '類型'),
+      name:       getTitle(props, '名稱'),
+      content:    getRichText(props, '內容'),
+      flightInfo: getRichText(props, '機票航班資訊') || getRichText(props, '航班資訊'),
+      date:       getDate(props, '日期'),
+      phone:      getPhone(props, '電話'),
+      link:       getUrl(props, '連結'),
+      notes:      getRichText(props, '備註'),
     };
   });
 
@@ -96,14 +97,13 @@ async function fetchOverview(tripId, dbId) {
   const existing = JSON.parse(fs.readFileSync(tripPath, 'utf-8'));
 
   const flights = rows
-    .filter(r => r.type === '航班')
-    .map(r => ({
-      type:      r.name,
-      airline:   r.content,
-      date:      r.date,
-      departure: (r.notes || '').split('→')[0]?.trim() || '',
-      arrival:   (r.notes || '').split('→')[1]?.trim() || '',
-    }));
+    .filter(isFlightRow)
+    .map(toFlight)
+    .sort((a, b) => {
+      const rank = { outbound: 0, unknown: 1, inbound: 2 };
+      const byDirection = rank[flightDirection(a)] - rank[flightDirection(b)];
+      return byDirection || (a.date || '').localeCompare(b.date || '');
+    });
 
   const dateRow = rows.find(r => r.type === '日期範圍');
   const vehicleRow = rows.find(r => r.type === '租車/露營車');
@@ -125,6 +125,38 @@ async function fetchOverview(tripId, dbId) {
 
   write(tripId, 'trip.json', merged);
   console.log(`✅ ${tripId}/trip.json — updated`);
+}
+
+function isFlightRow(row) {
+  return /航班|機票/.test(`${row.type || ''} ${row.name || ''}`) || Boolean(row.flightInfo);
+}
+
+function toFlight(row) {
+  const route = parseFlightRoute(row.notes || row.flightInfo || '');
+  return {
+    type:       row.name || row.type,
+    airline:    row.content,
+    ticketInfo: row.flightInfo || row.content,
+    date:       row.date,
+    departure:  route.departure,
+    arrival:    route.arrival,
+    link:       row.link,
+    notes:      row.notes,
+  };
+}
+
+function parseFlightRoute(text) {
+  const [departure = '', arrival = ''] = (text || '').split(/→|->/).map(s => s.trim());
+  return { departure, arrival };
+}
+
+function flightDirection(flight) {
+  const text = `${flight.type || ''} ${flight.departure || ''} ${flight.arrival || ''}`;
+  if (/回程|返程|return|inbound/i.test(text)) return 'inbound';
+  if (/去程|outbound/i.test(text)) return 'outbound';
+  if (/^TPE\b/.test(flight.departure || '')) return 'outbound';
+  if (/^TPE\b/.test(flight.arrival || '')) return 'inbound';
+  return 'unknown';
 }
 
 function write(tripId, filename, data) {
