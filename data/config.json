@@ -20,6 +20,16 @@
         "itinerary": "504eb439b7ee82c18abf01dd1b9c611f",
         "info": "546eb439b7ee83088860015ffbdc29a4"
       }
+    },
+    {
+      "id": "nagano-tokyo-2025",
+      "name": "🎿 202512 長野東京",
+      "source": "static"
+    },
+    {
+      "id": "canada-2026",
+      "name": "🇨🇦 202602 加拿大",
+      "source": "static"
     }
   ]
 }

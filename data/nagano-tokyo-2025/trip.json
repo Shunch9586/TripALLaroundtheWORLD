@@ -1,0 +1,56 @@
+{
+  "title": "長野白馬滑雪・東京文化探索",
+  "dateRange": {
+    "start": "2025-12-30",
+    "end": "2026-01-05"
+  },
+  "regions": [
+    "東京",
+    "長野",
+    "白馬",
+    "栂池高原"
+  ],
+  "flights": [
+    {
+      "type": "去程",
+      "direction": "outbound",
+      "airline": "星宇航空",
+      "flightNumber": "JX800",
+      "ticketInfo": "08:25 TPE → 12:35 NRT",
+      "date": "2025-12-30",
+      "departure": "TPE",
+      "arrival": "NRT",
+      "aircraft": "",
+      "bookingCode": "",
+      "ticketNumber": "",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "type": "回程",
+      "direction": "inbound",
+      "airline": "星宇航空",
+      "flightNumber": "JX803",
+      "ticketInfo": "15:40 NRT → TPE",
+      "date": "2026-01-05",
+      "departure": "NRT",
+      "arrival": "TPE",
+      "aircraft": "",
+      "bookingCode": "",
+      "ticketNumber": "",
+      "link": "",
+      "notes": ""
+    }
+  ],
+  "vehicle": {
+    "type": "租車",
+    "company": "Nippon Rent-A-Car 秋葉原店",
+    "pickupDate": "2025-12-31",
+    "pickupTime": "08:00",
+    "returnDate": "2026-01-03",
+    "returnTime": "22:00",
+    "rentalCode": "K95873",
+    "phone": "050-1712-2625",
+    "notes": "4WD。取還車皆為秋葉原店。"
+  }
+}

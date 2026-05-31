@@ -61,9 +61,12 @@ async function fetchTripRegistry(dbId) {
 }
 
 function writeConfig(trips) {
-  const next = { ...config, trips };
+  const staticTrips = (config.trips || []).filter(trip => trip.source === 'static' || !trip.notionDbs);
+  const byId = new Map(staticTrips.map(trip => [trip.id, trip]));
+  trips.forEach(trip => byId.set(trip.id, trip));
+  const next = { ...config, trips: Array.from(byId.values()) };
   fs.writeFileSync('data/config.json', `${JSON.stringify(next, null, 2)}\n`);
-  console.log(`✅ data/config.json — ${trips.length} trips`);
+  console.log(`✅ data/config.json — ${next.trips.length} trips`);
 }
 
 async function fetchItinerary(tripId, dbId) {
@@ -113,7 +116,8 @@ async function fetchInfo(tripId, dbId) {
   console.log(`✅ ${tripId}/info.json — ${items.length} 筆`);
 }
 
-async function fetchOverview(tripId, dbId) {
+async function fetchOverview(trip, dbId) {
+  const tripId = trip.id;
   const pages = await queryAll(dbId);
   const rows = pages.map(p => {
     const props = p.properties;
@@ -138,7 +142,9 @@ async function fetchOverview(tripId, dbId) {
 
   // Read existing trip.json and merge overview rows into it
   const tripPath = path.join('data', tripId, 'trip.json');
-  const existing = JSON.parse(fs.readFileSync(tripPath, 'utf-8'));
+  const existing = fs.existsSync(tripPath)
+    ? JSON.parse(fs.readFileSync(tripPath, 'utf-8'))
+    : defaultTripData(trip);
 
   const flights = rows
     .filter(isFlightRow)
@@ -229,6 +235,26 @@ function write(tripId, filename, data) {
   fs.writeFileSync(path.join(dir, filename), JSON.stringify(data, null, 2));
 }
 
+function defaultTripData(trip = {}) {
+  return {
+    title: trip.name || trip.id || '未命名旅程',
+    dateRange: { start: '', end: '' },
+    regions: [],
+    flights: [],
+    vehicle: {
+      type: '',
+      company: '',
+      pickupDate: '',
+      pickupTime: '',
+      returnDate: '',
+      returnTime: '',
+      rentalCode: '',
+      phone: '',
+      notes: '',
+    },
+  };
+}
+
 async function main() {
   const trips = config.tripRegistryDb
     ? await fetchTripRegistry(config.tripRegistryDb)
@@ -239,11 +265,15 @@ async function main() {
 
   for (const trip of trips) {
     if (target && trip.id !== target) continue;
+    if (!trip.notionDbs) {
+      console.log(`\n⏭️  Skipping static trip: ${trip.name}`);
+      continue;
+    }
     console.log(`\n🔄 Syncing: ${trip.name}`);
     const { overview, itinerary, info } = trip.notionDbs;
     await fetchItinerary(trip.id, itinerary);
     await fetchInfo(trip.id, info);
-    await fetchOverview(trip.id, overview);
+    await fetchOverview(trip, overview);
   }
 
   console.log('\n✅ 同步完成');

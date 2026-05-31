@@ -1,0 +1,87 @@
+{
+  "title": "Canada 2026｜極光、滑雪與洛磯山脈",
+  "dateRange": {
+    "start": "2026-02-13",
+    "end": "2026-02-28"
+  },
+  "regions": [
+    "Yellowknife",
+    "Whistler",
+    "Banff",
+    "Kelowna",
+    "Vancouver"
+  ],
+  "flights": [
+    {
+      "type": "航班",
+      "direction": "outbound",
+      "airline": "長榮航空",
+      "flightNumber": "BR10",
+      "ticketInfo": "02/13 23:55 TPE T2 → YVR Main",
+      "date": "2026-02-13",
+      "departure": "TPE",
+      "arrival": "YVR",
+      "aircraft": "",
+      "bookingCode": "",
+      "ticketNumber": "",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "type": "航班",
+      "direction": "outbound",
+      "airline": "Air Canada",
+      "flightNumber": "AC8480",
+      "ticketInfo": "02/13 20:40 YVR Dom → YZF -",
+      "date": "2026-02-13",
+      "departure": "YVR",
+      "arrival": "YZF",
+      "aircraft": "",
+      "bookingCode": "",
+      "ticketNumber": "",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "type": "航班",
+      "direction": "outbound",
+      "airline": "Air Canada",
+      "flightNumber": "AC8479",
+      "ticketInfo": "02/18 17:30 YZF - → YVR Main",
+      "date": "2026-02-18",
+      "departure": "YZF",
+      "arrival": "YVR",
+      "aircraft": "",
+      "bookingCode": "",
+      "ticketNumber": "",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "type": "回程",
+      "direction": "inbound",
+      "airline": "長榮航空",
+      "flightNumber": "BR09",
+      "ticketInfo": "02/28 00:15 YVR Intl → TPE T2",
+      "date": "2026-02-28",
+      "departure": "YVR",
+      "arrival": "TPE",
+      "aircraft": "",
+      "bookingCode": "",
+      "ticketNumber": "",
+      "link": "",
+      "notes": ""
+    }
+  ],
+  "vehicle": {
+    "type": "租車",
+    "company": "National / Yellowknife Airport",
+    "pickupDate": "2026-02-14",
+    "pickupTime": "10:00",
+    "returnDate": "2026-02-27",
+    "returnTime": "21:00",
+    "rentalCode": "2089379070 / 73174595786648",
+    "phone": "",
+    "notes": "National｜Yellowknife Airport｜02/14 10:00 - 02/18 16:00｜2089379070\nExpedia｜Vancouver Airport｜02/18 20:00 - 02/27 21:00｜73174595786648"
+  }
+}

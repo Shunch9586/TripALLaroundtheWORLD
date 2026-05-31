@@ -1,0 +1,110 @@
+[
+  {
+    "category": "住宿",
+    "name": "Downtown 1BR Suite (Airbnb)",
+    "content": "Airbnb｜Paid",
+    "phone": "",
+    "address": "5104 B 53 Street, Yellowknife, NT X1A 1V6",
+    "notes": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=5104%20B%2053%20Street%2C%20Yellowknife%2C%20NT%20X1A%201V6"
+  },
+  {
+    "category": "住宿",
+    "name": "Hi Whistler Hostel",
+    "content": "Hostel｜Unpaid",
+    "phone": "",
+    "address": "1035 Legacy Way, Whistler, BC V0N 1B1",
+    "notes": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=1035%20Legacy%20Way%2C%20Whistler%2C%20BC%20V0N%201B1"
+  },
+  {
+    "category": "住宿",
+    "name": "Hi Banff Alpine Centre",
+    "content": "Hostel｜Unpaid",
+    "phone": "",
+    "address": "801 Hidden Ridge Way, Banff, AB T1L 1B3",
+    "notes": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=801%20Hidden%20Ridge%20Way%2C%20Banff%2C%20AB%20T1L%201B3"
+  },
+  {
+    "category": "住宿",
+    "name": "Accent Inns Kelowna",
+    "content": "Hotel｜Unpaid",
+    "phone": "",
+    "address": "1140 Harvey Avenue, Kelowna, BC V1Y 6E7",
+    "notes": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=1140%20Harvey%20Avenue%2C%20Kelowna%2C%20BC%20V1Y%206E7"
+  },
+  {
+    "category": "住宿",
+    "name": "YWCA Hotel Vancouver",
+    "content": "Hotel｜Unpaid",
+    "phone": "",
+    "address": "733 Beatty Street, Vancouver, BC V6B 2M4",
+    "notes": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=733%20Beatty%20Street%2C%20Vancouver%2C%20BC%20V6B%202M4"
+  },
+  {
+    "category": "租車",
+    "name": "National",
+    "content": "02/14 10:00 - 02/18 16:00",
+    "phone": "",
+    "address": "Yellowknife Airport",
+    "notes": "預約/憑證：2089379070",
+    "link": "https://www.google.com/maps/search/?api=1&query=Yellowknife%20Airport"
+  },
+  {
+    "category": "租車",
+    "name": "Expedia",
+    "content": "02/18 20:00 - 02/27 21:00",
+    "phone": "",
+    "address": "Vancouver Airport",
+    "notes": "預約/憑證：73174595786648",
+    "link": "https://www.google.com/maps/search/?api=1&query=Vancouver%20Airport"
+  },
+  {
+    "category": "滑雪裝備",
+    "name": "Black Tie Ski Rentals (Whistler)",
+    "content": "02/19 - 02/20 (2 Days)｜Pick up at Shop (08:00 AM)",
+    "phone": "",
+    "address": "",
+    "notes": "Conf #: 516449 | Invoice #: 582497 | Renters: 2 | Return on 02/20 evening\n已預約",
+    "link": "https://maps.app.goo.gl/2ZiVxYngB5L56fMF6"
+  },
+  {
+    "category": "滑雪裝備",
+    "name": "Black Tie Ski Rentals (Banff)",
+    "content": "02/22 (1 Day)｜Pick up at Shop (20:00)",
+    "phone": "",
+    "address": "",
+    "notes": "Shop closes at 21:00. Arrive by 20:00 for fitting.\n需現場處理",
+    "link": "https://maps.app.goo.gl/9qfHC7P5X3GCzci36"
+  },
+  {
+    "category": "餐廳訂位",
+    "name": "Lakeview Lounge (Fairmont Château)",
+    "content": "02/23 (Mon) 12:00 PM",
+    "phone": "",
+    "address": "111 Lake Louise Drive, Lake Louise, AB",
+    "notes": "Conf #: 2017999586 | Name: PEI Xuan Lin",
+    "link": "https://www.google.com/maps/search/?api=1&query=111%20Lake%20Louise%20Drive%2C%20Lake%20Louise%2C%20AB"
+  },
+  {
+    "category": "餐廳訂位",
+    "name": "Top of Vancouver Revolving Restaurant",
+    "content": "02/26 (Thu) 20:00",
+    "phone": "",
+    "address": "555 West Hastings St, Vancouver, BC",
+    "notes": "Conf #: 2110283729 | Name: Han Chen Hsiao",
+    "link": "https://www.google.com/maps/search/?api=1&query=555%20West%20Hastings%20St%2C%20Vancouver%2C%20BC"
+  },
+  {
+    "category": "門票與活動",
+    "name": "Banff Gondola Admission",
+    "content": "02/23 (Mon) 3:10 PM",
+    "phone": "",
+    "address": "100 Mountain Ave, Banff",
+    "notes": "Res #: 3808875 | Guest: PEI Xuan Lin",
+    "link": "https://www.google.com/maps/search/?api=1&query=100%20Mountain%20Ave%2C%20Banff"
+  }
+]

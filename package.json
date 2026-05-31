@@ -4,6 +4,10 @@
   "private": true,
   "scripts": {
     "sync": "node scripts/fetch-notion.js",
+    "sync:ios": "bash scripts/sync-ios-assets.sh",
+    "import:legacy": "node scripts/import-legacy-webapps.js",
+    "push:static:notion": "node scripts/push-static-trip-to-notion.js",
+    "setup:static:notion": "node scripts/setup-static-trip-notion.js",
     "serve": "npx serve ."
   },
   "dependencies": {
