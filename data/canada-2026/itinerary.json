@@ -135,8 +135,32 @@
     "date": "2026-02-15",
     "theme": "冰路駕駛、冰上摩托車",
     "time": "",
-    "category": "🚗 交通",
-    "title": "上午：體驗大奴湖 (Great Slave Lake) 冰路駕駛",
+    "category": "📍 景點",
+    "title": "冰上摩托車集合點 (Google Maps)",
+    "location": "黃刀鎮 (Yellowknife)",
+    "mapsUrl": "https://maps.app.goo.gl/H7FrknCNkja75E5d7",
+    "transport": "",
+    "estimatedCost": 0,
+    "notes": "由舊版 WebApp 連結匯入。"
+  },
+  {
+    "date": "2026-02-15",
+    "theme": "冰路駕駛、冰上摩托車",
+    "time": "",
+    "category": "📍 景點",
+    "title": "大奴湖冰路入口 (Dettah Ice Road)",
+    "location": "黃刀鎮 (Yellowknife)",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dettah+Ice+Road+Start",
+    "transport": "",
+    "estimatedCost": 0,
+    "notes": "由舊版 WebApp 連結匯入。"
+  },
+  {
+    "date": "2026-02-15",
+    "theme": "冰路駕駛、冰上摩托車",
+    "time": "",
+    "category": "📍 景點",
+    "title": "晚上：極光村或自行追光",
     "location": "黃刀鎮 (Yellowknife)",
     "mapsUrl": "",
     "transport": "",
@@ -159,37 +183,13 @@
     "date": "2026-02-15",
     "theme": "冰路駕駛、冰上摩托車",
     "time": "",
-    "category": "📍 景點",
-    "title": "晚上：極光村或自行追光",
+    "category": "🚗 交通",
+    "title": "上午：體驗大奴湖 (Great Slave Lake) 冰路駕駛",
     "location": "黃刀鎮 (Yellowknife)",
     "mapsUrl": "",
     "transport": "",
     "estimatedCost": 0,
     "notes": ""
-  },
-  {
-    "date": "2026-02-15",
-    "theme": "冰路駕駛、冰上摩托車",
-    "time": "",
-    "category": "📍 景點",
-    "title": "大奴湖冰路入口 (Dettah Ice Road)",
-    "location": "黃刀鎮 (Yellowknife)",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dettah+Ice+Road+Start",
-    "transport": "",
-    "estimatedCost": 0,
-    "notes": "由舊版 WebApp 連結匯入。"
-  },
-  {
-    "date": "2026-02-15",
-    "theme": "冰路駕駛、冰上摩托車",
-    "time": "",
-    "category": "📍 景點",
-    "title": "冰上摩托車集合點 (Google Maps)",
-    "location": "黃刀鎮 (Yellowknife)",
-    "mapsUrl": "https://maps.app.goo.gl/H7FrknCNkja75E5d7",
-    "transport": "",
-    "estimatedCost": 0,
-    "notes": "由舊版 WebApp 連結匯入。"
   },
   {
     "date": "2026-02-15",
@@ -207,18 +207,6 @@
     "date": "2026-02-16",
     "theme": "狗拉雪橇、舊城區",
     "time": "10:30",
-    "category": "📍 景點",
-    "title": "Enodah 狗拉雪橇 (含接送 2.5h)",
-    "location": "黃刀鎮 (Yellowknife)",
-    "mapsUrl": "",
-    "transport": "",
-    "estimatedCost": 0,
-    "notes": "Enodah 狗拉雪橇 (含接送 2.5h)"
-  },
-  {
-    "date": "2026-02-16",
-    "theme": "狗拉雪橇、舊城區",
-    "time": "10:30",
     "category": "🏨 住宿",
     "title": "10:30 於住宿點等候接駁",
     "location": "黃刀鎮 (Yellowknife)",
@@ -226,6 +214,18 @@
     "transport": "",
     "estimatedCost": 0,
     "notes": ""
+  },
+  {
+    "date": "2026-02-16",
+    "theme": "狗拉雪橇、舊城區",
+    "time": "10:30",
+    "category": "📍 景點",
+    "title": "Enodah 狗拉雪橇 (含接送 2.5h)",
+    "location": "黃刀鎮 (Yellowknife)",
+    "mapsUrl": "",
+    "transport": "",
+    "estimatedCost": 0,
+    "notes": "Enodah 狗拉雪橇 (含接送 2.5h)"
   },
   {
     "date": "2026-02-16",
@@ -483,25 +483,25 @@
     "date": "2026-02-21",
     "theme": "橫越洛磯山脈 (800km 長征)",
     "time": "",
-    "category": "⛷️ 滑雪",
-    "title": "Lillooet (利盧埃特): 加油/上廁所",
+    "category": "📍 景點",
+    "title": "雪具店地圖 (Black Tie Banff)",
     "location": "惠斯勒 ➝ 班夫",
-    "mapsUrl": "",
-    "transport": "依原行程安排",
+    "mapsUrl": "https://maps.app.goo.gl/9qfHC7P5X3GCzci36",
+    "transport": "",
     "estimatedCost": 0,
-    "notes": "🚗 130km from Whistler"
+    "notes": "由舊版 WebApp 連結匯入。"
   },
   {
     "date": "2026-02-21",
     "theme": "橫越洛磯山脈 (800km 長征)",
     "time": "",
     "category": "🚗 交通",
-    "title": "Kamloops (甘露市): 午餐 (Costco/速食)",
+    "title": "Golden (黃金鎮): 最後加油",
     "location": "惠斯勒 ➝ 班夫",
     "mapsUrl": "",
     "transport": "依原行程安排",
     "estimatedCost": 0,
-    "notes": "🚗 170km from Lillooet\n⏳ 停留 45m"
+    "notes": "🚗 148km from Revelstoke\n⏳ 停留 15m (⚠️ 僅技術停留)"
   },
   {
     "date": "2026-02-21",
@@ -520,24 +520,24 @@
     "theme": "橫越洛磯山脈 (800km 長征)",
     "time": "",
     "category": "🚗 交通",
-    "title": "Golden (黃金鎮): 最後加油",
+    "title": "Kamloops (甘露市): 午餐 (Costco/速食)",
     "location": "惠斯勒 ➝ 班夫",
     "mapsUrl": "",
     "transport": "依原行程安排",
     "estimatedCost": 0,
-    "notes": "🚗 148km from Revelstoke\n⏳ 停留 15m (⚠️ 僅技術停留)"
+    "notes": "🚗 170km from Lillooet\n⏳ 停留 45m"
   },
   {
     "date": "2026-02-21",
     "theme": "橫越洛磯山脈 (800km 長征)",
     "time": "",
-    "category": "📍 景點",
-    "title": "雪具店地圖 (Black Tie Banff)",
+    "category": "⛷️ 滑雪",
+    "title": "Lillooet (利盧埃特): 加油/上廁所",
     "location": "惠斯勒 ➝ 班夫",
-    "mapsUrl": "https://maps.app.goo.gl/9qfHC7P5X3GCzci36",
-    "transport": "",
+    "mapsUrl": "",
+    "transport": "依原行程安排",
     "estimatedCost": 0,
-    "notes": "由舊版 WebApp 連結匯入。"
+    "notes": "🚗 130km from Whistler"
   },
   {
     "date": "2026-02-21",
@@ -685,18 +685,6 @@
   },
   {
     "date": "2026-02-23",
-    "theme": "峽谷冰走、城堡午餐、硫磺山",
-    "time": "12:00",
-    "category": "🍜 餐廳",
-    "title": "Lakeview Lounge 用餐 (訂位 12:00)",
-    "location": "班夫 (Banff)",
-    "mapsUrl": "",
-    "transport": "",
-    "estimatedCost": 0,
-    "notes": "Lakeview Lounge 用餐 (訂位 12:00)"
-  },
-  {
-    "date": "2026-02-23",
     "theme": "餐廳訂位",
     "time": "12:00",
     "category": "🍜 餐廳",
@@ -706,6 +694,18 @@
     "transport": "",
     "estimatedCost": 0,
     "notes": "Conf #: 2017999586 | Name: PEI Xuan Lin"
+  },
+  {
+    "date": "2026-02-23",
+    "theme": "峽谷冰走、城堡午餐、硫磺山",
+    "time": "12:00",
+    "category": "🍜 餐廳",
+    "title": "Lakeview Lounge 用餐 (訂位 12:00)",
+    "location": "班夫 (Banff)",
+    "mapsUrl": "",
+    "transport": "",
+    "estimatedCost": 0,
+    "notes": "Lakeview Lounge 用餐 (訂位 12:00)"
   },
   {
     "date": "2026-02-23",
@@ -867,25 +867,13 @@
     "date": "2026-02-25",
     "theme": "酒莊品酒、返回西岸",
     "time": "",
-    "category": "📍 景點",
-    "title": "參觀 Mission Hill 或 Summerhill 酒莊",
+    "category": "🏨 住宿",
+    "title": "入住 YWCA Hotel Vancouver",
     "location": "基隆納 ➝ 溫哥華",
     "mapsUrl": "",
     "transport": "",
     "estimatedCost": 0,
     "notes": ""
-  },
-  {
-    "date": "2026-02-25",
-    "theme": "酒莊品酒、返回西岸",
-    "time": "",
-    "category": "📍 景點",
-    "title": "購買知名冰酒 (Icewine)",
-    "location": "基隆納 ➝ 溫哥華",
-    "mapsUrl": "",
-    "transport": "",
-    "estimatedCost": 0,
-    "notes": "⏳ 停留 1.5h"
   },
   {
     "date": "2026-02-25",
@@ -903,33 +891,21 @@
     "date": "2026-02-25",
     "theme": "酒莊品酒、返回西岸",
     "time": "",
-    "category": "🏨 住宿",
-    "title": "入住 YWCA Hotel Vancouver",
+    "category": "📍 景點",
+    "title": "購買知名冰酒 (Icewine)",
     "location": "基隆納 ➝ 溫哥華",
     "mapsUrl": "",
     "transport": "",
     "estimatedCost": 0,
-    "notes": ""
+    "notes": "⏳ 停留 1.5h"
   },
   {
-    "date": "2026-02-26",
-    "theme": "史丹利公園、旋轉餐廳晚餐",
+    "date": "2026-02-25",
+    "theme": "酒莊品酒、返回西岸",
     "time": "",
     "category": "📍 景點",
-    "title": "Stanley Park (史丹利公園) 散步/騎行",
-    "location": "溫哥華 (Vancouver)",
-    "mapsUrl": "",
-    "transport": "",
-    "estimatedCost": 0,
-    "notes": "⏳ 建議 2-3h"
-  },
-  {
-    "date": "2026-02-26",
-    "theme": "史丹利公園、旋轉餐廳晚餐",
-    "time": "",
-    "category": "📍 景點",
-    "title": "Gastown (煤氣鎮) 蒸氣鐘",
-    "location": "溫哥華 (Vancouver)",
+    "title": "參觀 Mission Hill 或 Summerhill 酒莊",
+    "location": "基隆納 ➝ 溫哥華",
     "mapsUrl": "",
     "transport": "",
     "estimatedCost": 0,
@@ -950,14 +926,26 @@
   {
     "date": "2026-02-26",
     "theme": "史丹利公園、旋轉餐廳晚餐",
-    "time": "20:00",
-    "category": "🍜 餐廳",
-    "title": "晚餐：Top of Vancouver Revolving Restaurant",
+    "time": "",
+    "category": "📍 景點",
+    "title": "Gastown (煤氣鎮) 蒸氣鐘",
     "location": "溫哥華 (Vancouver)",
     "mapsUrl": "",
     "transport": "",
     "estimatedCost": 0,
     "notes": ""
+  },
+  {
+    "date": "2026-02-26",
+    "theme": "史丹利公園、旋轉餐廳晚餐",
+    "time": "",
+    "category": "📍 景點",
+    "title": "Stanley Park (史丹利公園) 散步/騎行",
+    "location": "溫哥華 (Vancouver)",
+    "mapsUrl": "",
+    "transport": "",
+    "estimatedCost": 0,
+    "notes": "⏳ 建議 2-3h"
   },
   {
     "date": "2026-02-26",
@@ -972,16 +960,16 @@
     "notes": "Conf #: 2110283729 | Name: Han Chen Hsiao"
   },
   {
-    "date": "2026-02-27",
-    "theme": "Outlet 最後補貨、搭機",
-    "time": "",
-    "category": "✈️ 航班",
-    "title": "McArthurGlen Designer Outlet 購物",
-    "location": "溫哥華 ✈️ 台北",
+    "date": "2026-02-26",
+    "theme": "史丹利公園、旋轉餐廳晚餐",
+    "time": "20:00",
+    "category": "🍜 餐廳",
+    "title": "晚餐：Top of Vancouver Revolving Restaurant",
+    "location": "溫哥華 (Vancouver)",
     "mapsUrl": "",
     "transport": "",
     "estimatedCost": 0,
-    "notes": "⏳ 建議 2h"
+    "notes": ""
   },
   {
     "date": "2026-02-27",
@@ -994,6 +982,18 @@
     "transport": "",
     "estimatedCost": 0,
     "notes": ""
+  },
+  {
+    "date": "2026-02-27",
+    "theme": "Outlet 最後補貨、搭機",
+    "time": "",
+    "category": "✈️ 航班",
+    "title": "McArthurGlen Designer Outlet 購物",
+    "location": "溫哥華 ✈️ 台北",
+    "mapsUrl": "",
+    "transport": "",
+    "estimatedCost": 0,
+    "notes": "⏳ 建議 2h"
   },
   {
     "date": "2026-02-27",
@@ -1024,10 +1024,10 @@
     "theme": "返回甜蜜的家",
     "time": "",
     "category": "✈️ 航班",
-    "title": "越洋飛行",
+    "title": "預計 03/01 凌晨抵達台北 (TPE)",
     "location": "機上",
     "mapsUrl": "",
-    "transport": "",
+    "transport": "依原行程安排",
     "estimatedCost": 0,
     "notes": ""
   },
@@ -1036,10 +1036,10 @@
     "theme": "返回甜蜜的家",
     "time": "",
     "category": "✈️ 航班",
-    "title": "預計 03/01 凌晨抵達台北 (TPE)",
+    "title": "越洋飛行",
     "location": "機上",
     "mapsUrl": "",
-    "transport": "依原行程安排",
+    "transport": "",
     "estimatedCost": 0,
     "notes": ""
   }
