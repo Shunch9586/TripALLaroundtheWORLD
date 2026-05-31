@@ -20,6 +20,26 @@
         "itinerary": "504eb439b7ee82c18abf01dd1b9c611f",
         "info": "546eb439b7ee83088860015ffbdc29a4"
       }
+    },
+    {
+      "id": "canada-2026",
+      "name": "🇨🇦 202602 加拿大",
+      "notionPageId": "371eb439b7ee81f3a225fdc792691729",
+      "notionDbs": {
+        "overview": "371eb439b7ee81c1a919e767f64377ac",
+        "itinerary": "371eb439b7ee812e9317f62530fc85d9",
+        "info": "371eb439b7ee81b2a06ad6f727146989"
+      }
+    },
+    {
+      "id": "nagano-tokyo-2025",
+      "name": "🎿 202512 長野東京",
+      "notionPageId": "371eb439b7ee812b9809ea0a0ae6b12c",
+      "notionDbs": {
+        "overview": "371eb439b7ee819cbeb4dd95240a94d3",
+        "itinerary": "371eb439b7ee81488e5ec434786de3cf",
+        "info": "371eb439b7ee81109e19f1764f65a1c0"
+      }
     }
   ]
 }
