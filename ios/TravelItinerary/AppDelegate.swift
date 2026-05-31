@@ -12,6 +12,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         window.rootViewController = WebViewController()
         window.makeKeyAndVisible()
         self.window = window
+        TravelSplashView.show(in: window)
         return true
     }
 }

@@ -1499,7 +1499,7 @@ final class WebViewController: UIViewController {
     }
 }
 
-private enum Palette {
+enum Palette {
     static let primary = UIColor(red: 0.45, green: 0.88, blue: 0.92, alpha: 1)
     static let accent = UIColor(red: 1.00, green: 0.71, blue: 0.36, alpha: 1)
     static let primaryStrong = UIColor(red: 0.02, green: 0.10, blue: 0.14, alpha: 1)
@@ -1513,7 +1513,7 @@ private enum Palette {
     static let muted = UIColor(red: 0.62, green: 0.75, blue: 0.78, alpha: 1)
 }
 
-private final class BackgroundView: UIView {
+final class BackgroundView: UIView {
     private let baseGradient = CAGradientLayer()
     private let diagonalWash = CAGradientLayer()
     private let vignette = CAGradientLayer()
