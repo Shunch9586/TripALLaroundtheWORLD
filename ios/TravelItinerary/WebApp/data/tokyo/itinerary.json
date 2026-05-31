@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2027-02-24",
+    "theme": "出發・抵達東京",
+    "time": "07:55",
+    "category": "✈️ 航班",
+    "title": "BR184 桃園 → 東京",
+    "location": "TPE T2 → NRT T1",
+    "mapsUrl": "",
+    "transport": "長榮航空 BR184",
+    "estimatedCost": 0,
+    "notes": "TPE 07:55 T2 → NRT 12:00 T1｜飛行約 3h05m｜Boeing 787-10｜訂位代號：EDKD47｜機票號碼：695 24658257"
+  },
+  {
+    "date": "2027-03-04",
+    "theme": "回程",
+    "time": "20:20",
+    "category": "✈️ 航班",
+    "title": "BR195 東京 → 桃園",
+    "location": "NRT T1 → TPE T2",
+    "mapsUrl": "",
+    "transport": "長榮航空 BR195",
+    "estimatedCost": 0,
+    "notes": "NRT 20:20 T1 → TPE 23:25 T2｜飛行約 4h05m｜Boeing 787-10｜訂位代號：EDKD47｜機票號碼：695 24658257"
+  }
+]
