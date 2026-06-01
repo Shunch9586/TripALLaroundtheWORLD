@@ -1,0 +1,57 @@
+{
+  "title": "北海道露營車之旅",
+  "dateRange": {
+    "start": "2027-01-19",
+    "end": "2027-01-31"
+  },
+  "regions": [
+    "留壽都",
+    "洞爺湖",
+    "札幌",
+    "富良野",
+    "美瑛"
+  ],
+  "flights": [
+    {
+      "type": "去程航班",
+      "direction": "outbound",
+      "airline": "長榮航空 BR116",
+      "flightNumber": "BR116",
+      "ticketInfo": "訂位代號：E3NIPM｜機票號碼：695 2465264231｜機型：Boeing 787-10",
+      "date": "2027-01-19",
+      "departure": "TPE 10:10",
+      "arrival": "CTS 15:00，飛行約 3h50m",
+      "aircraft": "Boeing 787-10",
+      "bookingCode": "E3NIPM",
+      "ticketNumber": "695 2465264231",
+      "link": "",
+      "notes": "TPE 10:10 → CTS 15:00，飛行約 3h50m"
+    },
+    {
+      "type": "回程航班",
+      "direction": "inbound",
+      "airline": "長榮航空 BR115",
+      "flightNumber": "BR115",
+      "ticketInfo": "訂位代號：E3NIPM｜機票號碼：695 2465264231｜機型：Boeing 787-10",
+      "date": "2027-01-31",
+      "departure": "CTS 15:20",
+      "arrival": "TPE 19:05，飛行約 4h45m",
+      "aircraft": "Boeing 787-10",
+      "bookingCode": "E3NIPM",
+      "ticketNumber": "695 2465264231",
+      "link": "",
+      "notes": "CTS 15:20 → TPE 19:05，飛行約 4h45m"
+    }
+  ],
+  "vehicle": {
+    "type": "露營車租借",
+    "company": "租車代號：T2010401122910",
+    "phone": "080-2861-5874",
+    "rentalCode": "T2010401122910",
+    "pickupDate": "2027-01-19",
+    "pickupTime": "15:00",
+    "returnDate": "2027-01-24",
+    "returnTime": "15:00",
+    "notes": "抵達新千歲後撥打電話，接駁車免費接送至取車地點。全程導航請用 CAR NAVITIME（有限高路段，Google Maps 不顯示）"
+  }
+}

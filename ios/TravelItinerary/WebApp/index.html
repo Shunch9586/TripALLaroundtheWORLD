@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>旅遊行程</title>
+  <script>
+    document.documentElement.dataset.design =
+      new URLSearchParams(location.search).get('design') || 'option3';
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-top">
+      <span class="header-icon">✈️</span>
+      <span class="header-title">旅遊行程</span>
+      <select id="trip-select" class="trip-select"></select>
+    </div>
+    <nav class="tab-nav">
+      <button class="tab active" data-tab="itinerary">行程</button>
+      <button class="tab" data-tab="today">今日</button>
+      <button class="tab" data-tab="info">重要資訊</button>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section id="section-itinerary" class="section active">
+      <div id="overview-card" class="overview-card"></div>
+      <div class="filter-bar" id="filter-bar"></div>
+      <div class="date-jump" id="date-jump"></div>
+      <div id="itinerary-list"></div>
+    </section>
+
+    <section id="section-today" class="section">
+      <div id="today-content"></div>
+    </section>
+
+    <section id="section-info" class="section">
+      <div id="info-list"></div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
