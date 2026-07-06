@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "category": "⚠️ 注意事項",
+    "name": "緊急與保險待確認",
+    "content": "出發前集中整理旅平險、租車保險、信用卡保險、道路救援、租車公司緊急電話。",
+    "phone": "",
+    "address": "",
+    "notes": "目前先建立欄位，後續拿到正式文件後補入保單號碼、客服電話與事故處理流程。",
+    "link": ""
+  },
+  {
+    "category": "⛷️ 滑雪",
+    "name": "富良野滑雪重點",
+    "content": "1/26-1/27 富良野兩天。第一天熟悉 Furano Zone / Kitanomine Zone，第二天依雪況彈性補強或改休息。",
+    "phone": "",
+    "address": "富良野スキー場",
+    "notes": "富良野日程後接觀光日，1/27 收板時確認雪具歸還或保管。",
+    "link": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4"
+  },
+  {
+    "category": "⛷️ 滑雪",
+    "name": "留壽都滑雪重點",
+    "content": "1/20-1/22 留壽都三天。Day 1 暖身與熟悉雪場；Day 2 可主攻 Mt. Isola；Day 3 早收板，為轉場留時間。",
+    "phone": "",
+    "address": "ルスツリゾートスキー場",
+    "notes": "每天確認纜車、風速、雪況與體力。若天候變差，提早收板，避免傍晚雪路長距離移動。",
+    "link": "https://www.google.com/maps/search/?api=1&query=%E3%83%AB%E3%82%B9%E3%83%84%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4"
+  },
+  {
+    "category": "🏨 住宿",
+    "name": "1/22 路線待決",
+    "content": "1/22 滑完留壽都後尚未決定往札幌或洞爺湖。札幌方向利於 1/23 市區附近雪場；洞爺湖/登別方向利於休息與車宿。",
+    "phone": "",
+    "address": "留壽都 / 札幌 / 洞爺湖",
+    "notes": "決定前先不要把住宿視為確定。決策依據：1/23 是否要滑札幌国際/手稲、當日雪況、車宿點冬季開放狀態。",
+    "link": "https://www.google.com/maps/search/?api=1&query=%E3%83%AB%E3%82%B9%E3%83%84%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%20%E6%9C%AD%E5%B9%8C%20%E6%B4%9E%E7%88%BA%E6%B9%96"
+  },
+  {
+    "category": "🏨 住宿",
+    "name": "1/24 住宿方案",
+    "content": "主方案：札幌薄野或中島公園周邊飯店，方便晚餐與隔天上午市區行程。備案：新千歲機場內或千歲市區飯店，適合天候差或取車太晚。",
+    "phone": "",
+    "address": "札幌薄野 / 新千歲機場 / 千歲市區",
+    "notes": "訂房優先條件：冬季停車場、限高、可預約車位、出入庫時間。薄野飯店車位不足時，需使用周邊付費停車場。",
+    "link": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%99%E3%81%8D%E3%81%AE%20%E3%83%9B%E3%83%86%E3%83%AB%20%E9%A7%90%E8%BB%8A%E5%A0%B4"
+  },
+  {
+    "category": "🚗 交通",
+    "name": "1/24 普通租車銜接",
+    "content": "1/24 露營車還車後，在新千歲機場附近銜接普通租車，之後前往札幌薄野住宿。",
+    "phone": "",
+    "address": "新千歲機場附近租車站點",
+    "notes": "普通租車需確認雪胎、ETC、免責補償、還車時間、是否可異地還車，以及富良野/札幌冬季路線。",
+    "link": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%AB%E3%83%BC"
+  },
+  {
+    "category": "🚗 交通",
+    "name": "露營車租借",
+    "content": "新千歲機場附近取露營車；入境後撥打租車方電話安排接駁。",
+    "phone": "080-2861-5874",
+    "address": "新千歲機場附近租車站點",
+    "notes": "租車代號：T2010401122910。取車確認雪胎、保險文件、緊急聯絡卡、車內備品、暖氣與外接電源。",
+    "link": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%94%E3%83%B3%E3%82%B0%E3%82%AB%E3%83%BC%20%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB"
+  },
+  {
+    "category": "🚗 交通",
+    "name": "導航與冬季行車",
+    "content": "露營車與冬季路線全程優先使用 CAR NAVITIME；Google Maps 只作地點確認，不作限高/大型車路線依據。",
+    "phone": "",
+    "address": "",
+    "notes": "每天出發前確認天氣、除雪、封路、油量與停車場限高。山路或夜路若降雪變強，優先縮短移動。",
+    "link": "https://www.google.com/maps/search/?api=1&query=CAR%20NAVITIME"
+  }
+]
