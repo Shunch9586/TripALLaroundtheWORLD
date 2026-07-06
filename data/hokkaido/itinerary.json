@@ -6,7 +6,7 @@
     "category": "⚠️ 注意事項",
     "title": "⚠️ 導航使用 CAR NAVITIME",
     "location": "",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=CAR%20NAVITIME",
     "transport": "",
     "estimatedCost": 0,
     "notes": "露營車有限高限制，Google Maps 不標示限高路段，全程請使用 CAR NAVITIME APP 導航，避免進入限高隧道或停車場"
@@ -18,7 +18,7 @@
     "category": "⚠️ 注意事項",
     "title": "⚠️ 露營車停車地點・留壽都周邊",
     "location": "留壽都周邊",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E3%81%AE%E9%A7%85%20230%E3%83%AB%E3%82%B9%E3%83%84",
     "transport": "",
     "estimatedCost": 0,
     "notes": "建議停車點（車宿）：\n①道の駅 230ルスツ（免費，設施齊全）\n②留壽都渡假村停車場（需確認 RV 是否允許過夜）\n③ルスツリゾート附近 RV Park（建議出發前電話確認）\n出發前建議使用「車中泊マップ」APP 查詢最新可停點"
@@ -30,7 +30,7 @@
     "category": "✈️ 航班",
     "title": "桃園 → 新千歲",
     "location": "桃園國際機場 T2",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%9C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4%20%E7%AC%AC%E4%BA%8C%E8%88%AA%E5%BB%88",
     "transport": "提前 2.5 小時到機場辦理報到",
     "estimatedCost": 0,
     "notes": "長榮 BR116｜起飛 10:10 → 抵達 CTS 15:00（飛行約 3h50m）｜行李限重請確認票種"
@@ -42,7 +42,7 @@
     "category": "🚗 交通",
     "title": "取露營車",
     "location": "新千歲機場附近租車站點",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%AB%E3%83%BC%20%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%94%E3%83%B3%E3%82%B0%E3%82%AB%E3%83%BC",
     "transport": "入境後撥打 080-2861-5874，接駁車免費接送，約 15 分鐘",
     "estimatedCost": 0,
     "notes": "租車代號：T2010401122910｜確認項目：雪地輪胎・保險文件・緊急聯絡卡・車內備品"
@@ -54,7 +54,7 @@
     "category": "📍 景點",
     "title": "市區採購・煙草煙油",
     "location": "新千歲機場附近或小樽・札幌市區",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E5%91%A8%E8%BE%BA%20%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B%20%E3%83%89%E3%83%A9%E3%83%83%E3%82%B0%E3%82%B9%E3%83%88%E3%82%A2",
     "transport": "取車後直接開露營車前往",
     "estimatedCost": 3000,
     "notes": "購買煙草或煙油，確認在日本當地合規產品"
@@ -74,6 +74,30 @@
   {
     "date": "2027-01-20",
     "theme": "留壽都滑雪",
+    "time": "07:45",
+    "category": "🍜 餐廳",
+    "title": "早餐・雪具與車內整理",
+    "location": "留壽都周邊",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E3%81%AE%E9%A7%85%20230%E3%83%AB%E3%82%B9%E3%83%84",
+    "transport": "露營車 / 步行",
+    "estimatedCost": 1500,
+    "notes": "出門前確認手套、護目鏡、雪票、行動電源與車內保暖；若車宿，早上先整理水、垃圾與暖氣狀態。"
+  },
+  {
+    "date": "2027-01-20",
+    "theme": "留壽都滑雪",
+    "time": "08:30",
+    "category": "⛷️ 滑雪",
+    "title": "留壽都入場・購票與暖身",
+    "location": "ルスツリゾートスキー場",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AB%E3%82%B9%E3%83%84%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4",
+    "transport": "露營車停原位，步行至纜車站",
+    "estimatedCost": 0,
+    "notes": "先確認 West Mt / East Mt / Mt. Isola 開放狀況。第一天不要一開始就排太硬，先用中級道暖身。"
+  },
+  {
+    "date": "2027-01-20",
+    "theme": "留壽都滑雪",
     "time": "09:00",
     "category": "⛷️ 滑雪",
     "title": "留壽都滑雪 Day 1",
@@ -82,6 +106,42 @@
     "transport": "露營車停原位，步行至纜車站",
     "estimatedCost": 7500,
     "notes": "依當日雪況彈性選擇 West Mt / East Mt / Mount Isola 三座山｜全山票約 ¥7,500/日"
+  },
+  {
+    "date": "2027-01-20",
+    "theme": "留壽都滑雪",
+    "time": "12:00",
+    "category": "🍜 餐廳",
+    "title": "留壽都雪場午餐",
+    "location": "ルスツリゾートスキー場",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AB%E3%82%B9%E3%83%84%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
+    "transport": "雪場內移動",
+    "estimatedCost": 2000,
+    "notes": "午餐避開 12:00 尖峰可提早或延後。下午視體力選擇 Mt. Isola 或回 West Mt。"
+  },
+  {
+    "date": "2027-01-20",
+    "theme": "留壽都滑雪",
+    "time": "16:00",
+    "category": "⛷️ 滑雪",
+    "title": "收板・確認隔日雪況",
+    "location": "ルスツリゾートスキー場",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AB%E3%82%B9%E3%83%84%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4",
+    "transport": "步行回露營車",
+    "estimatedCost": 0,
+    "notes": "收板後確認隔天風速、纜車營運與車宿地點。若濕冷，優先安排泡湯或提早休息。"
+  },
+  {
+    "date": "2027-01-21",
+    "theme": "留壽都滑雪",
+    "time": "08:30",
+    "category": "⛷️ 滑雪",
+    "title": "留壽都 Day 2 路線確認",
+    "location": "ルスツリゾートスキー場",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AB%E3%82%B9%E3%83%84%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4",
+    "transport": "露營車停原位",
+    "estimatedCost": 0,
+    "notes": "第二天可把重點放在 Mt. Isola 與長距離巡航；若粉雪好，再安排樹林與非壓雪區域，但以安全為優先。"
   },
   {
     "date": "2027-01-21",
@@ -96,40 +156,64 @@
     "notes": "依雪況彈性安排山頭，若粉雪好可優先 Mount Isola 樹林區"
   },
   {
+    "date": "2027-01-21",
+    "theme": "留壽都滑雪",
+    "time": "12:30",
+    "category": "🍜 餐廳",
+    "title": "留壽都午餐・休息補給",
+    "location": "ルスツリゾートスキー場",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AB%E3%82%B9%E3%83%84%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
+    "transport": "雪場內移動",
+    "estimatedCost": 2000,
+    "notes": "第二天容易累積疲勞，午餐後先休息 30 分鐘再決定下午滑行量。"
+  },
+  {
+    "date": "2027-01-21",
+    "theme": "留壽都滑雪",
+    "time": "17:30",
+    "category": "🍜 餐廳",
+    "title": "晚餐・泡湯或車內休息",
+    "location": "留壽都 / 洞爺湖 / 札幌方向候選",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AB%E3%82%B9%E3%83%84%20%E6%B8%A9%E6%B3%89%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
+    "transport": "露營車",
+    "estimatedCost": 3000,
+    "notes": "若隔天仍滑留壽都，晚餐留在周邊最輕鬆；若隔天要轉往洞爺湖或札幌，晚餐後再短距離移動。"
+  },
+  {
     "date": "2027-01-22",
-    "theme": "留壽都滑雪・傍晚前往札幌",
+    "theme": "留壽都滑雪・路線待決",
     "time": "09:00",
     "category": "⛷️ 滑雪",
     "title": "留壽都滑雪 Day 3",
     "location": "ルスツリゾートスキー場",
-    "mapsUrl": "https://maps.google.com/?q=ルスツリゾート",
-    "transport": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AB%E3%82%B9%E3%83%84%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4",
+    "transport": "露營車",
     "estimatedCost": 7500,
-    "notes": "滑完後出發前往札幌市區附近雪場，建議 15:00 前結束滑雪，預留開車時間"
+    "notes": "1/22 路線尚未決定。建議 15:00 前結束滑雪，之後二選一：A 往洞爺湖/登別方向車宿；B 往札幌方向準備 1/23 市區附近雪場。"
   },
   {
     "date": "2027-01-22",
-    "theme": "留壽都滑雪・傍晚前往札幌",
+    "theme": "留壽都滑雪・路線待決",
     "time": "15:30",
     "category": "🚗 交通",
-    "title": "留壽都 → 札幌市區附近雪場",
-    "location": "",
-    "mapsUrl": "",
-    "transport": "露營車，約 1.5 小時",
+    "title": "留壽都 → 下一站（札幌 / 洞爺湖待決）",
+    "location": "留壽都 → 札幌或洞爺湖",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AB%E3%82%B9%E3%83%84%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%20%E6%9C%AD%E5%B9%8C%20%E6%B4%9E%E7%88%BA%E6%B9%96",
+    "transport": "露營車，依天候與隔日雪場決定方向",
     "estimatedCost": 2500,
-    "notes": "目標雪場候選（依雪況決定）：\n①札幌国際スキー場（粉雪品質佳）\n②手稲山スキー場（近市區、設施完善）\n③朝里川溫泉スキー場（較小、安靜）\n抵達後在雪場停車場車宿"
+    "notes": "待決點：若 1/23 要滑札幌国際/手稲，往札幌較順；若想降低移動與車宿壓力，洞爺湖/登別方向較適合休息。"
   },
   {
     "date": "2027-01-22",
-    "theme": "留壽都滑雪・洞爺湖湖畔車宿",
+    "theme": "留壽都滑雪・路線待決",
     "time": "夜間",
     "category": "🏨 住宿",
-    "title": "露營車住宿地點・洞爺湖湖畔周遭 PA",
-    "location": "洞爺湖湖畔周遭 PA / 道の駅候選",
-    "mapsUrl": "",
+    "title": "待決住宿候選・洞爺湖或札幌周邊",
+    "location": "洞爺湖 / 札幌周邊",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B4%9E%E7%88%BA%E6%B9%96%20%E6%9C%AD%E5%B9%8C%20RV%20Park%20%E9%81%93%E3%81%AE%E9%A7%85",
     "transport": "露營車",
     "estimatedCost": 0,
-    "notes": "1/22 晚上露營車住宿地點改以洞爺湖湖畔周遭 PA 或道の駅為優先候選。建議抵達前用 CAR NAVITIME 與車中泊マップ確認大型車可停、冬季開放、廁所與除雪狀況；若 PA 不允許車宿，改找洞爺湖周邊道の駅或 RV Park。"
+    "notes": "原洞爺湖 PA 保留為候選，不視為已確定。決定 1/23 雪場後再定車宿地點；出發前確認冬季開放、廁所、除雪與大型車可停。"
   },
   {
     "date": "2027-01-23",
@@ -138,7 +222,7 @@
     "category": "⛷️ 滑雪",
     "title": "札幌市區附近雪場滑雪",
     "location": "待定（依 1/22 雪況決定）",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%E5%9B%BD%E9%9A%9B%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4",
     "transport": "露營車停雪場停車場",
     "estimatedCost": 7000,
     "notes": "雪場依 1/22 抵達後雪況評估決定，候選：札幌国際・手稲山・朝里川｜1/23 滑完後前往下一站"
@@ -150,7 +234,7 @@
     "category": "🍜 餐廳",
     "title": "札幌市區　和同事聚餐・週邊",
     "location": "札幌市區（TBD）",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%99%E3%81%8D%E3%81%AE%20%E6%9C%AD%E5%B9%8C",
     "transport": "露營車進市區",
     "estimatedCost": 5000,
     "notes": "TBD — 和同事一起吃駳週邊，地點待確認。車宿地點需提前挑好（札幌市區 RV 停車選擇較少，建議提前查詢「タイムズ」或付費停車場）"
@@ -162,7 +246,7 @@
     "category": "📍 景點",
     "title": "札幌市區　週邊・休息",
     "location": "札幌市區（TBD）",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%20%E5%A4%A7%E9%80%9A%E5%85%AC%E5%9C%92",
     "transport": "露營車",
     "estimatedCost": 3000,
     "notes": "TBD — 週邊或小樻・大通公園等。還車為 15:00，請於 13:30 前出發前往租車店"
@@ -174,10 +258,82 @@
     "category": "🚗 交通",
     "title": "還露營車",
     "location": "新千歲機場附近租車站點",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%AB%E3%83%BC",
     "transport": "還車前加滿油、確認車內清潔",
     "estimatedCost": 0,
     "notes": "租車代號：T2010401122910｜還車後可撥 080-2861-5874 安排接駁回機場或下一個地點"
+  },
+  {
+    "date": "2027-01-24",
+    "theme": "札幌休息・還露營車・轉租車",
+    "time": "16:00",
+    "category": "🚗 交通",
+    "title": "機場附近租普通車",
+    "location": "新千歲機場附近租車站點",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%AB%E3%83%BC",
+    "transport": "租車公司接駁或機場租車櫃台",
+    "estimatedCost": 0,
+    "notes": "還露營車後銜接普通租車。確認雪胎、ETC、保險、還車地點與是否可開往富良野/札幌市區。"
+  },
+  {
+    "date": "2027-01-24",
+    "theme": "札幌休息・還露營車・轉租車",
+    "time": "17:00",
+    "category": "🚗 交通",
+    "title": "新千歲 → 札幌薄野",
+    "location": "札幌薄野 / すすきの",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%99%E3%81%8D%E3%81%AE%20%E6%9C%AD%E5%B9%8C",
+    "transport": "普通租車，約 60-90 分鐘，依雪況調整",
+    "estimatedCost": 2000,
+    "notes": "主方案住薄野，方便晚餐與隔天上午市區行程。若天候差或取車太晚，改住新千歲機場/千歲市區。"
+  },
+  {
+    "date": "2027-01-24",
+    "theme": "札幌休息・還露營車・轉租車",
+    "time": "18:30",
+    "category": "🏨 住宿",
+    "title": "札幌薄野住宿",
+    "location": "札幌薄野 / すすきの",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%99%E3%81%8D%E3%81%AE%20%E3%83%9B%E3%83%86%E3%83%AB%20%E9%A7%90%E8%BB%8A%E5%A0%B4",
+    "transport": "普通租車，停飯店或周邊停車場",
+    "estimatedCost": 0,
+    "notes": "推薦方向：薄野或中島公園周邊，晚餐選擇多。訂房時優先確認冬季停車場限高、是否可預約車位、出入庫時間。"
+  },
+  {
+    "date": "2027-01-24",
+    "theme": "札幌休息・還露營車・轉租車",
+    "time": "20:00",
+    "category": "🍜 餐廳",
+    "title": "薄野晚餐・拉麵或海鮮",
+    "location": "札幌薄野 / すすきの",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%99%E3%81%8D%E3%81%AE%20%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E6%B5%B7%E9%AE%AE",
+    "transport": "步行",
+    "estimatedCost": 3500,
+    "notes": "還車與取車日不要排太滿，晚餐以薄野步行可達為主。隔天要去機場接人，避免太晚休息。"
+  },
+  {
+    "date": "2027-01-25",
+    "theme": "札幌・接機・前往富良野",
+    "time": "09:30",
+    "category": "📍 景點",
+    "title": "札幌市區輕行程",
+    "location": "大通公園 / 札幌站 / 二条市場",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%80%9A%E5%85%AC%E5%9C%92%20%E4%BA%8C%E6%9D%A1%E5%B8%82%E5%A0%B4%20%E6%9C%AD%E5%B9%8C%E9%A7%85",
+    "transport": "普通租車或步行地鐵",
+    "estimatedCost": 1000,
+    "notes": "接機前只排輕量行程。若想買伴手禮可排札幌站；若想吃早餐可排二条市場。"
+  },
+  {
+    "date": "2027-01-25",
+    "theme": "札幌・接機・前往富良野",
+    "time": "12:30",
+    "category": "🚗 交通",
+    "title": "札幌 → 新千歲機場",
+    "location": "新千歲機場",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%20%E3%81%99%E3%81%99%E3%81%8D%E3%81%AE%20%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF",
+    "transport": "普通租車，約 60-90 分鐘，預留冬季路況",
+    "estimatedCost": 2000,
+    "notes": "建議 12:30 前後離開札幌，避免天候或高速壅塞影響 15:00 接機。"
   },
   {
     "date": "2027-01-25",
@@ -186,7 +342,7 @@
     "category": "🚗 交通",
     "title": "前往新千歲機場接女朋友",
     "location": "新千歲機場",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E5%9B%BD%E9%9A%9B%E7%B7%9A%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "接機後直接前往富良野。冬季移動時間保守抓 2.5～3 小時，視雪況與天候調整。"
@@ -198,7 +354,7 @@
     "category": "🚗 交通",
     "title": "新千歲 → 富良野",
     "location": "富良野",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%E9%A7%85",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "接機後往富良野移動。若抵達時間延後，取雪具可改到隔天早上處理。"
@@ -210,7 +366,7 @@
     "category": "⛷️ 滑雪",
     "title": "取租用雪具",
     "location": "富良野",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%20%E3%82%B9%E3%82%AD%E3%83%BC%20%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "先以富良野地區雪具店或住宿合作租借點為候選，正式店家與預約時間待確認。"
@@ -222,10 +378,46 @@
     "category": "🏨 住宿",
     "title": "富良野住宿",
     "location": "富良野",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%20%E3%83%9B%E3%83%86%E3%83%AB",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "住宿先以地區名標示，實際旅館待確認。"
+  },
+  {
+    "date": "2027-01-26",
+    "theme": "富良野滑雪",
+    "time": "08:15",
+    "category": "🍜 餐廳",
+    "title": "早餐・前往富良野雪場",
+    "location": "富良野市區 / 富良野スキー場",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4",
+    "transport": "普通租車",
+    "estimatedCost": 1500,
+    "notes": "住宿若在市區，早上預留停車與換裝時間；確認雪具是否已取好、是否需要調整 binding。"
+  },
+  {
+    "date": "2027-01-26",
+    "theme": "富良野滑雪",
+    "time": "12:00",
+    "category": "🍜 餐廳",
+    "title": "富良野雪場午餐",
+    "location": "富良野スキー場",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
+    "transport": "雪場內移動",
+    "estimatedCost": 2000,
+    "notes": "Day 1 先熟悉 Furano Zone / Kitanomine Zone。午餐後看雪況決定是否跨區。"
+  },
+  {
+    "date": "2027-01-26",
+    "theme": "富良野滑雪",
+    "time": "16:30",
+    "category": "📍 景點",
+    "title": "收板・富良野市區晚餐",
+    "location": "富良野市區",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
+    "transport": "普通租車",
+    "estimatedCost": 3500,
+    "notes": "滑完先回住宿休息，晚餐排市區即可。若很累，保留便利商店/超市方案。"
   },
   {
     "date": "2027-01-26",
@@ -234,7 +426,7 @@
     "category": "⛷️ 滑雪",
     "title": "富良野滑雪 Day 1",
     "location": "富良野スキー場",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4",
     "transport": "一般轎車／接駁待確認",
     "estimatedCost": 0,
     "notes": "使用前一晚租用雪具。依雪況與體力安排北之峰 Zone 或富良野 Zone。"
@@ -246,10 +438,46 @@
     "category": "🏨 住宿",
     "title": "富良野住宿",
     "location": "富良野",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%20%E3%83%9B%E3%83%86%E3%83%AB",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "住宿先以地區名標示，實際旅館待確認。"
+  },
+  {
+    "date": "2027-01-27",
+    "theme": "富良野滑雪",
+    "time": "08:30",
+    "category": "⛷️ 滑雪",
+    "title": "富良野 Day 2 雪況確認",
+    "location": "富良野スキー場",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4",
+    "transport": "普通租車",
+    "estimatedCost": 0,
+    "notes": "第二天依前一天體力與雪況調整。若風大或纜車停駛，可改成美瑛/富良野室內景點備案。"
+  },
+  {
+    "date": "2027-01-27",
+    "theme": "富良野滑雪",
+    "time": "12:30",
+    "category": "🍜 餐廳",
+    "title": "富良野雪場午餐・休息",
+    "location": "富良野スキー場",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
+    "transport": "雪場內移動",
+    "estimatedCost": 2000,
+    "notes": "若早上雪況好，午餐稍晚；若天候差，午餐後改排富良野市區休息。"
+  },
+  {
+    "date": "2027-01-27",
+    "theme": "富良野滑雪",
+    "time": "16:00",
+    "category": "⛷️ 滑雪",
+    "title": "歸還或保管雪具・隔日富良野觀光準備",
+    "location": "富良野",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%20%E3%82%B9%E3%82%AD%E3%83%BC%20%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB",
+    "transport": "普通租車",
+    "estimatedCost": 0,
+    "notes": "確認雪具租借是否到 1/27 結束或可延長。隔天改觀光，車內整理成一般移動模式。"
   },
   {
     "date": "2027-01-27",
@@ -258,7 +486,7 @@
     "category": "⛷️ 滑雪",
     "title": "富良野滑雪 Day 2",
     "location": "富良野スキー場",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4",
     "transport": "一般轎車／接駁待確認",
     "estimatedCost": 0,
     "notes": "第二天富良野滑雪，依前一天雪況與熟悉程度調整滑行區域。"
@@ -270,7 +498,7 @@
     "category": "🏨 住宿",
     "title": "富良野住宿",
     "location": "富良野",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%20%E3%83%9B%E3%83%86%E3%83%AB",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "住宿先以地區名標示，實際旅館待確認。"
@@ -282,7 +510,7 @@
     "category": "📍 景點",
     "title": "富良野起司工房",
     "location": "富良野",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%E3%83%81%E3%83%BC%E3%82%BA%E5%B7%A5%E6%88%BF",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "室內景點，適合冬季安排。可參觀起司相關設施、試吃或安排簡單體驗。"
@@ -294,7 +522,7 @@
     "category": "🍜 餐廳",
     "title": "富良野市區午餐・Furano Marche",
     "location": "富良野",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%83%A9%E3%83%8E%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "午餐與伴手禮採買，可依當天營業狀況調整。"
@@ -306,7 +534,7 @@
     "category": "📍 景點",
     "title": "富田農場・葡萄酒工廠・Campana 六花亭",
     "location": "富良野 / 中富良野",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E5%AF%8C%E7%94%B0%20%E3%82%AB%E3%83%B3%E3%83%91%E3%83%BC%E3%83%8A%E5%85%AD%E8%8A%B1%E4%BA%AD",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "冬季以雪景、溫室、伴手禮與甜點休息為主；三個點可依時間擇二安排。"
@@ -318,7 +546,7 @@
     "category": "📍 景點",
     "title": "森林精靈陽台 Ningle Terrace",
     "location": "富良野",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%86%E3%83%A9%E3%82%B9",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "適合晚上亮燈後前往，冬季小木屋與雪景氣氛佳。"
@@ -330,7 +558,7 @@
     "category": "🏨 住宿",
     "title": "富良野住宿",
     "location": "富良野",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%89%AF%E9%87%8E%20%E3%83%9B%E3%83%86%E3%83%AB",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "住宿先以地區名標示，實際旅館待確認。"
@@ -342,7 +570,7 @@
     "category": "📍 景點",
     "title": "美瑛 Patchwork Road 雪景",
     "location": "美瑛",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E7%91%9B%20%E3%83%91%E3%83%83%E3%83%81%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AE%E8%B7%AF",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "以路邊停留拍照為主，注意不要進入農地；冬季路況需保守安排。"
@@ -354,7 +582,7 @@
     "category": "📍 景點",
     "title": "白鬚瀑布",
     "location": "美瑛",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E3%81%B2%E3%81%92%E3%81%AE%E6%BB%9D",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "冬季瀑布與雪景適合短停拍照，與青池同方向安排。"
@@ -366,7 +594,7 @@
     "category": "📍 景點",
     "title": "青池",
     "location": "美瑛",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E9%87%91%E9%9D%92%E3%81%84%E6%B1%A0",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "冬季可能結冰積雪，上午先完成青池與白鬚瀑布，之後繞去旭川吃飯；若遇點燈期間且想看夜間版本，可現場再調整。"
@@ -378,7 +606,7 @@
     "category": "🍜 餐廳",
     "title": "旭川美食・午餐或下午餐",
     "location": "旭川",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%AD%E5%B7%9D%20%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "美瑛雪景行程後繞去旭川吃飯。候選以旭川拉麵、成吉思汗、居酒屋或咖啡甜點為主；依當天路況與營業時間決定。"
@@ -390,7 +618,7 @@
     "category": "🚗 交通",
     "title": "美瑛 → 旭川 → 札幌",
     "location": "旭川 / 札幌",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%AD%E5%B7%9D%E9%A7%85%20%E6%9C%AD%E5%B9%8C%E9%A7%85",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "美瑛景點後繞旭川用餐，再開回札幌。冬季需保守估時，若旭川停留拉長，札幌晚間行程以入住與簡單晚餐為主。"
@@ -402,7 +630,7 @@
     "category": "🏨 住宿",
     "title": "札幌住宿",
     "location": "札幌",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%20%E3%83%9B%E3%83%86%E3%83%AB",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "抵達後可輕鬆逛薄野或狸小路，住宿先以地區名標示。"
@@ -414,7 +642,7 @@
     "category": "📍 景點",
     "title": "北海道神宮・円山公園",
     "location": "札幌",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%B5%B7%E9%81%93%E7%A5%9E%E5%AE%AE%20%E5%86%86%E5%B1%B1%E5%85%AC%E5%9C%92",
     "transport": "市區交通／一般轎車",
     "estimatedCost": 0,
     "notes": "上午安排雪景散步與參拜，天候不好可縮短停留。"
@@ -426,7 +654,7 @@
     "category": "📍 景點",
     "title": "白色戀人公園",
     "location": "札幌",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E3%81%84%E6%81%8B%E4%BA%BA%E3%83%91%E3%83%BC%E3%82%AF",
     "transport": "市區交通／一般轎車",
     "estimatedCost": 0,
     "notes": "甜點、拍照與伴手禮主軸；若想改吃喝路線，可替換成札幌啤酒博物館。"
@@ -438,7 +666,7 @@
     "category": "📍 景點",
     "title": "大通公園・札幌電視塔・時計台",
     "location": "札幌",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%80%9A%E5%85%AC%E5%9C%92%20%E6%9C%AD%E5%B9%8C%E3%83%86%E3%83%AC%E3%83%93%E5%A1%94%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E6%99%82%E8%A8%88%E5%8F%B0",
     "transport": "市區交通",
     "estimatedCost": 0,
     "notes": "市中心經典景點，可依天候與體力短停補拍照。"
@@ -450,7 +678,7 @@
     "category": "📍 景點",
     "title": "藻岩山夜景",
     "location": "札幌",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%97%BB%E5%B2%A9%E5%B1%B1%20%E5%B1%B1%E9%A0%82%E5%B1%95%E6%9C%9B%E5%8F%B0",
     "transport": "市區交通／一般轎車",
     "estimatedCost": 0,
     "notes": "晴天優先安排；若纜車因天候停駛，改薄野、狸小路或札幌站周邊。"
@@ -462,7 +690,7 @@
     "category": "🍜 餐廳",
     "title": "薄野晚餐",
     "location": "札幌",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%99%E3%81%8D%E3%81%AE%20%E6%9C%AD%E5%B9%8C",
     "transport": "市區交通",
     "estimatedCost": 0,
     "notes": "晚餐地點待定，可安排拉麵、成吉思汗或海鮮。"
@@ -474,7 +702,7 @@
     "category": "🏨 住宿",
     "title": "札幌住宿",
     "location": "札幌",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%20%E3%83%9B%E3%83%86%E3%83%AB",
     "transport": "市區交通",
     "estimatedCost": 0,
     "notes": "住宿先以地區名標示，實際旅館待確認。"
@@ -486,7 +714,7 @@
     "category": "📍 景點",
     "title": "札幌站 / 大通地下街 / 狸小路小逛",
     "location": "札幌",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%E9%A7%85%20%E5%A4%A7%E9%80%9A%E5%9C%B0%E4%B8%8B%E8%A1%97%20%E7%8B%B8%E5%B0%8F%E8%B7%AF%E5%95%86%E5%BA%97%E8%A1%97",
     "transport": "市區交通",
     "estimatedCost": 0,
     "notes": "最後採買與輕鬆散步，不安排遠點，避免影響前往機場。"
@@ -498,7 +726,7 @@
     "category": "🚗 交通",
     "title": "札幌 → 新千歲機場",
     "location": "新千歲機場",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%E9%A7%85%20%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "中午後前往機場，冬季預留還車與路況緩衝。"
@@ -510,7 +738,7 @@
     "category": "🚗 交通",
     "title": "還車",
     "location": "新千歲 / 租車公司",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%AB%E3%83%BC",
     "transport": "一般轎車",
     "estimatedCost": 0,
     "notes": "回程航班前完成還車，預留接駁或步行至航廈時間。"
@@ -522,7 +750,7 @@
     "category": "✈️ 航班",
     "title": "新千歲 → 桃園",
     "location": "新千歲機場 國際線",
-    "mapsUrl": "",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%8D%83%E6%AD%B3%E7%A9%BA%E6%B8%AF%20%E5%9B%BD%E9%9A%9B%E7%B7%9A%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB",
     "transport": "請於 13:20 前完成報到（起飛前 2 小時）",
     "estimatedCost": 0,
     "notes": "長榮 BR115｜起飛 15:20 → 抵台 19:05（飛行約 4h45m）"
