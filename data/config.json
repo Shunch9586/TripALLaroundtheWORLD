@@ -12,16 +12,6 @@
       }
     },
     {
-      "id": "tokyo",
-      "name": "🗼 202702 東京",
-      "notionPageId": "52feb439b7ee827ea0478166c3920841",
-      "notionDbs": {
-        "overview": "931eb439b7ee83a1b8c9817215dc5fbf",
-        "itinerary": "504eb439b7ee82c18abf01dd1b9c611f",
-        "info": "546eb439b7ee83088860015ffbdc29a4"
-      }
-    },
-    {
       "id": "canada-2026",
       "name": "🇨🇦 202602 加拿大",
       "notionPageId": "371eb439b7ee81f3a225fdc792691729",
